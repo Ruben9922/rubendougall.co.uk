@@ -1,0 +1,8 @@
+title: Ruben9922.GitHub.io
+description: Home of Ruben9922
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
