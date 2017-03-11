@@ -2,7 +2,7 @@ title: Ruben Dougall
 description: Mainly programming, web development and house music
 google_analytics: UA-23280894-6
 show_downloads: false
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 gems:
   - jekyll-mentions
