@@ -14,8 +14,10 @@ In my spare time I enjoy programming different types of applications in various 
 
 ## Web Development
 * Initially learnt how to make static web pages using simple HTML and CSS
-* Used PHP with MySQL and SQLite
-* Used JavaScript with jQuery
-* Now interested in modern web technologies and NoSQL so started using Meteor full-stack JavaScript framework
+* Started using server-side scripting with PHP to make dynamic web pages, but didn't look into client-side scripting for ages
+* Later used JavaScript with jQuery to put much application logic onto the client side and create more responsive UIs
+* Used Bootstrap to build nicer looking UIs
+* Now interested in more modern web technologies so started using Meteor full-stack JavaScript framework
+* Interested in NoSQL
 * Also had some experience with Spring, JHipster and AngularJS 1.X
 * Currently learning Angular 2
