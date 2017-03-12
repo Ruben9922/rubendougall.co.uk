@@ -1,14 +1,21 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+# Programming
+In my spare time I enjoy programming different types of applications in various languages
+* Gradually taught myself C# by making [simple forms-based applications](http://ruebzkuebz.ruben9922.co.uk/programs/myprograms) after following a tutorial in a computing magazine
+* Learnt Python using my Raspberry Pi at one point
+* Learnt Java when making Android apps and on my course
+* Still enjoy programming and learning about more advanced features like lambda expressions in Java and C#
+* Have a lot of experience in building UIs with WPF and Windows Forms in C# and JavaFX in Java
+* Used Processing for drawing in 2D/3D and started learning Unity for making games
+* Used other languages such as C and Haskell
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+# Store Apps
+* Made a fast click game called *Super Click* originally for [Windows Store](https://www.microsoft.com/en-us/store/p/super-click/9wzdncrfjtrq) but later recreated for [Google Play](https://play.google.com/store/apps/details?id=com.ruben9922.superclick)
+* Made a [Binary Converter](https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter) for Google Play Store, which converts between two numeral systems (any between base 2 and 36) and even allows for signed numbers (in two's complement)
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
-
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
-
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Web Development
+* Initially learnt how to make static web pages using simple HTML and CSS
+* Used PHP with MySQL and SQLite
+* Used JavaScript with jQuery
+* Now interested in modern web technologies and NoSQL so started using Meteor full-stack JavaScript framework
+* Also had some experience with Spring, JHipster and AngularJS 1.X
+* Currently learning Angular 2
