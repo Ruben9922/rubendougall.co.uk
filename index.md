@@ -10,7 +10,7 @@ In my spare time I enjoy programming different types of applications in various 
 
 ## Store Apps
 * Made a **fast click game** called *Super Click* originally for [Windows Store](https://www.microsoft.com/en-us/store/p/super-click/9wzdncrfjtrq) but later recreated for [Google Play](https://play.google.com/store/apps/details?id=com.ruben9922.superclick)
-* Made a [**Binary Converter**](https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter) for Google Play Store, which converts between two numeral systems (any between base 2 and 36) and even allows for signed numbers in two's complement
+* Made a [**Binary Converter app**](https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter) for Google Play Store, which converts between two numeral systems (any between base 2 and 36) and even allows for signed numbers in two's complement
 
 ## Web Development
 * Initially just learnt how to make **static web pages** using simple **HTML** and **CSS**
