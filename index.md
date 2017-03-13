@@ -15,9 +15,14 @@ In my spare time I enjoy programming different types of applications in various 
 ## Web Development
 * Initially just learnt how to make **static web pages** using simple **HTML** and **CSS**
 * Started doing **server-side scripting** with **PHP** to make dynamic web pages, but didn't look into client-side scripting for ages
-* Later used **JavaScript** with **jQuery** to put much application logic onto the client side and create more responsive UIs
-* Used **Bootstrap** to build nicer looking UIs
+* Later used **JavaScript** with **jQuery** to put application logic on the client side and create more responsive UIs
+* Used **Bootstrap** to build nice UIs
 * Now **interested in more modern web technologies** and **enjoy using JavaScript** so started using **Meteor**, a full-stack JavaScript framework
 * Interested in **NoSQL** database management systems so have used **MongoDB**
 * Also had some experience with **Spring**, **JHipster** and **AngularJS 1.X**
 * Currently learning **Angular 2**
+
+## House Music
+* [Love listening to house music](https://www.last.fm/user/ruben_rjd), particularly deep house and future house currently, though I appreciate all kinds of music
+* Learnt to DJ mainly by teaching myself on my DJ controller
+* Interested in producing electronic music and [experiment with creating songs](https://soundcloud.com/ruben-dougall)
