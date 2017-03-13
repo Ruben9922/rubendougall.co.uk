@@ -22,7 +22,7 @@ In my spare time I enjoy programming different types of applications in various 
 * Also had some experience with **Spring**, **JHipster** and **AngularJS 1.X**
 * Currently learning **Angular 2**
 
-## House Music
+## Electronic Music
 * [Love listening to house music](https://www.last.fm/user/ruben_rjd), particularly deep house and future house currently, though I appreciate all kinds of music
-* Learnt to DJ mainly by teaching myself on my DJ controller
 * Interested in producing electronic music and [experiment with creating songs](https://soundcloud.com/ruben-dougall)
+* Learnt to DJ mainly by teaching myself on my DJ controller
