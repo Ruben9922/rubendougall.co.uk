@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Web Apps
-permalink: /web-apps/
+title: Projects
+permalink: /projects/
 ---
+
+<h2 class="ui header">Web Apps</h2>
 
 *Note: I'm starting to rewrite some of my old apps; they will appear here soon.*
 
