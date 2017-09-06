@@ -2,17 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+order: 100
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I enjoy programming, mainly in **Java** and **C#**, but [have experience in other languages](/about/skills/#languages).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Recently I've been learning about web development in **React** and game development in **LibGDX**. I've also learnt about the new Java 8 features such as lambda expressions, [streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html) and concurrency using [CompletableFuture](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I also like listening to house music and have been learning how to produce music and DJ.
 
-
-[jekyll-organization]: https://github.com/jekyll
+[See a list of my technical skills →](/about/skills/)
