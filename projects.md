@@ -21,6 +21,18 @@ permalink: /projects/
       </div>
     </div>
   </a>
+  <a class="card" href="//rubendougall.co.uk/permissions-calculator/">
+    <div class="ui top attached label">
+      <i class="check icon"></i>
+      Online
+    </div>
+    <div class="content">
+      <div class="header">Unix Permissions Calculator</div>
+      <div class="description">
+        Web app for converting between different notations for Unix permissions.
+      </div>
+    </div>
+  </a>
   <div class="disabled card">
     <div class="ui orange top attached label">
       <i class="circle notched icon"></i>
