@@ -2,7 +2,6 @@
 layout: page
 title: Lambda Expressions
 date: 2017-08-07
-categories: tutorials java 8
 include_nav: false
 permalink: /tutorials/java8/lambda-expressions/
 ---
