@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Java Tutorial: Part 1 - Intro"
+title: "Part 1: Intro"
 date: 2017-08-01
 include_nav: false
 permalink: /tutorials/java/intro/

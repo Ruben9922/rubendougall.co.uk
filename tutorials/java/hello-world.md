@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Java Tutorial: Part 3 - \"Hello, World!\""
+title: "Part 3: \"Hello, World!\""
 date: 2017-08-03
 include_nav: false
 permalink: /tutorials/java/hello-world/

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Java 8 Tutorial: Lambda Expressions"
+title: Lambda Expressions
 date: 2017-08-07
 categories: tutorials java 8
 include_nav: false

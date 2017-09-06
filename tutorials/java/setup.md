@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Java Tutorial: Part 2 - Setup"
+title: "Part 2: Setup"
 date: 2017-08-01
 categories: tutorials java
 include_nav: false
