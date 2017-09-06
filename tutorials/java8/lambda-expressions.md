@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: Lambda Expressions
 date: 2017-08-07
 include_nav: false

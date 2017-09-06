@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: "Part 2: Setup"
 date: 2017-08-01
 include_nav: false

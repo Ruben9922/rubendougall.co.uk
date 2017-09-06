@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: "Part 1: Intro"
 date: 2017-08-01
 include_nav: false

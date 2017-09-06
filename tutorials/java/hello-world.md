@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: "Part 3: \"Hello, World!\""
 date: 2017-08-03
 include_nav: false
