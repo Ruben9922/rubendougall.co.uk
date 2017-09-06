@@ -3,9 +3,6 @@ layout: default
 ---
 <div class="ui text container">
   {% include breadcrumb.html %}
-  <div class="ui divider"></div>
-
-  <h1 class="ui header">{{ page.title | escape }}</h1>
-
+  <h1 class="ui dividing header page-header">{{ page.title | escape }}</h1>
   {{ content }}
 </div>

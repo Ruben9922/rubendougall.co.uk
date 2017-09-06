@@ -9,9 +9,14 @@
 }
 
 .header-space {
-  margin-top: 4em;
+  margin-top: 4.5rem;
 }
 
 .ui.menu.footer {
-  margin-top: 4.5em;
+  margin-top: 4.5rem;
+}
+
+.ui.header.page-header {
+  margin-top: 0.3rem;
+  margin-bottom: 2.2rem;
 }
