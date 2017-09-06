@@ -6,3 +6,4 @@
 @headerFontWeight: 400;
 @headerFontWeight1: 600;
 @googleFontSizes: '300,400,600,300italic,400italic,600italic';
+@googleProtocol: '//';

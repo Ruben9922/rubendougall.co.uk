@@ -17,7 +17,7 @@
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
-@googleProtocol    : '//';
+@googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
 
 /*-------------------
