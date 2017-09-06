@@ -1,6 +1,8 @@
 /*******************************
      User Global Variables
 *******************************/
-// @headerFont: "Montserrat", Helvetica, Arial, sans-serif;
-// @pageFont: "Montserrat", Helvetica, Arial, sans-serif;
-// @googleFontName: "Montserrat";
+@fontName: "Montserrat";
+@fontWeight: 400;
+@headerFontWeight: 400;
+@headerFontWeight1: 600;
+@googleFontSizes: '300,400,600,300italic,400italic,600italic';

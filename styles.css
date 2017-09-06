@@ -1,0 +1,13 @@
+.pusher {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.header-space {
+  margin-top: 4.5em;
+}
