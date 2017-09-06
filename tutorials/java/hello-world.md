@@ -3,6 +3,7 @@ layout: page
 title: "Java Tutorial: Part 3 - \"Hello, World!\""
 date: 2017-08-03
 include_nav: false
+permalink: /tutorials/java/hello-world/
 ---
 In this section you'll write your first Java program. Usually one's first program is a "Hello, world!" program, which will simply output `Hello, world!` to the command line.
 

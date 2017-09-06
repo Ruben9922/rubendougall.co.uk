@@ -3,6 +3,7 @@ layout: page
 title: "Java Tutorial: Part 1 - Intro"
 date: 2017-08-01
 include_nav: false
+permalink: /tutorials/java/intro/
 ---
 Welcome to my Java tutorial! It will consist of a series of posts introducing you to programming in the Java programming language. I'm assuming you're a complete beginner to programming.
 

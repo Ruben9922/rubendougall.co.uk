@@ -4,6 +4,7 @@ title: "Java Tutorial: Part 2 - Setup"
 date: 2017-08-01
 categories: tutorials java
 include_nav: false
+permalink: /tutorials/java/setup/
 ---
 In this section you'll download and set up the software required to write and run Java programs. It'll only take a few minutes as there's really not much to set up.
 
