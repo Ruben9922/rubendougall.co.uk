@@ -22,6 +22,7 @@ url: "http://rubendougall.co.uk/" # the base hostname & protocol for your site, 
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jemoji
 
 defaults:
   -
