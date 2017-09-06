@@ -4,7 +4,7 @@ title: "Java 8 Tutorial: Lambda Expressions"
 date: 2017-08-07
 categories: tutorials java 8
 include_nav: false
-permalink: /tutorials/java/8/lambda-expressions/
+permalink: /tutorials/java8/lambda-expressions/
 ---
 Java 8 contains many new features, some of which are based on concepts in functional programming. One such feature is **lambda expressions**.
 
