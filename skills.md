@@ -157,14 +157,6 @@ This page lists my technical skills, such as languages, frameworks and libraries
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="content">
-      <div class="header">jQuery</div>
-      <div class="meta">JavaScript Library</div>
-      <div class="description">
-      </div>
-    </div>
-  </div>
 </div><br/>
 
 ## Other
