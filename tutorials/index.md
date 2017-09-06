@@ -13,4 +13,12 @@ permalink: /tutorials/
       </div>
     </div>
   </a>
+  <a class="card" href="java8">
+    <div class="content">
+      <div class="header">Java 8 Tutorials</div>
+      <div class="description">
+        Tutorials covering new features in Java 8.
+      </div>
+    </div>
+  </a>
 </div>
