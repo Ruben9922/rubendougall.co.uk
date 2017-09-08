@@ -58,3 +58,61 @@ permalink: /projects/
     </div>
   </div>
 </div>
+
+<h2 class="ui header">Store Apps</h2>
+
+<div class="ui cards">
+  <div class="card">
+    <div class="ui top attached label">
+      <i class="check icon"></i>
+      Published
+    </div>
+    <div class="content">
+      <div class="header">Binary Converter</div>
+      <div class="description">
+        Simple fast click game.
+      </div>
+      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1rem;">
+        <div class="row" style="padding: 0rem;">
+          <div class="eleven wide column">
+            <a href="https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="ui fluid image" alt="Get it on Google Play" src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="card">
+    <div class="ui top attached label">
+      <i class="check icon"></i>
+      Published
+    </div>
+    <div class="content">
+      <div class="header">Super Click</div>
+      <div class="description">
+        Simple fast click game.
+      </div>
+      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1rem;">
+        <div class="row" style="padding: 0rem;">
+          <div class="eleven wide column">
+            <a href="https://play.google.com/store/apps/details?id=com.ruben9922.superclick&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="ui fluid image" alt="Get it on Google Play" src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png"/></a>
+          </div>
+        </div>
+        <div class="row" style="padding: 0rem;">
+          <div class="eleven wide column" style="padding-left: 1.8rem; padding-right: 1.8rem;">
+            <a href="https://www.microsoft.com/store/apps/9wzdncrfjtrq?ocid=badge"><img class="ui fluid image" src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" alt="Get it from Microsoft"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="extra content">
+      <div class="ui two buttons">
+        <div class="ui basic green button">Approve</div>
+        <div class="ui basic red button">Decline</div>
+      </div>
+    </div> -->
+  </div>
+</div>
+<br/>
+
+<p><small>Google Play and the Google Play logo are trademarks of Google Inc.</small></p>
