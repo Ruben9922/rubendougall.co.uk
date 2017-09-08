@@ -72,7 +72,7 @@ permalink: /projects/
       <div class="description">
         Simple fast click game.
       </div>
-      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1rem;">
+      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1.5rem;">
         <div class="row" style="padding: 0rem;">
           <div class="eleven wide column">
             <a href="https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="ui fluid image" alt="Get it on Google Play" src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png"/></a>
@@ -92,7 +92,7 @@ permalink: /projects/
       <div class="description">
         Simple fast click game.
       </div>
-      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1rem;">
+      <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1.5rem;">
         <div class="row" style="padding: 0rem;">
           <div class="eleven wide column">
             <a href="https://play.google.com/store/apps/details?id=com.ruben9922.superclick&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="ui fluid image" alt="Get it on Google Play" src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png"/></a>
