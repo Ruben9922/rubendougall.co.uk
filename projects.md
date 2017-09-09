@@ -70,7 +70,7 @@ permalink: /projects/
     <div class="content">
       <div class="header">Binary Converter</div>
       <div class="description">
-        Simple fast click game.
+        Simple application for converting integers between decimal, binary, hexadecimal, octal and any other positional numeral system (currently between base 2 and base 36 inclusive).
       </div>
       <div class="ui centered grid" style="padding: 0rem; padding-top: 1.5rem; padding-bottom: 1.5rem;">
         <div class="row" style="padding: 0rem;">
