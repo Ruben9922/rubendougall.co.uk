@@ -33,3 +33,5 @@ If you're on Windows, you'll need to set up an environment variable for the Java
 In Explorer, go to `C:\Program Files\Java\` (or wherever you installed Java). There should be a folder whose name is of the form `jdk1.X.X_XXX`. Make a note of this path (on my PC it's `C:\Program Files\Java\jdk1.8.0_121`).
 
 Now in Control Panel, go to <i>System and Security</i> &gt; <i>System</i>. Then click <i>Advanced system settings</i> on the left pane. In the <i>Advanced</i> tab, click the <i>Environment Variables...</i> button at the bottom. Another window should appear. Under your user variables, create a new variable with `JAVA_HOME` as the name and the path you found a moment ago as the value.
+
+To make sure it's working correctly, try running `java` and `javac` in the command prompt. If you get a help message detailing the command usage, it's working! If you get an error relating to the command not being recognised, the environment variable may not be set up correctly.
