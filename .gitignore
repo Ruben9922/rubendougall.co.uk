@@ -74,4 +74,6 @@ yarn-error.log
 .DS_Store
 
 # Custom .gitignore
-/semantic
+semantic/node_modules/
+node_modules/
+semantic/dist/
