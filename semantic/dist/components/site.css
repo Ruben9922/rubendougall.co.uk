@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Site
+ * # Semantic UI 2.3.3 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13,7 +13,7 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,300italic,400italic,600italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -27,12 +27,11 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: "Montserrat", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
-  font-weight: 400;
 }
 
 
@@ -45,10 +44,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Montserrat", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
-  font-weight: 400;
+  font-weight: bold;
   padding: 0em;
 }
 h1 {
@@ -158,6 +157,7 @@ input::selection {
 body ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
+  height: 10px;
 }
 body ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.1);
