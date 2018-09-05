@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button, Container, Header, Icon, Image} from 'semantic-ui-react'
-import profileImage from '../../public/static/ruben.jpg'
+import profileImage from '../../static/ruben.jpg'
 
 const IndexPage = () => (
   <Container fluid textAlign="center">
