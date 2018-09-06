@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Container, Header, Icon, Image} from 'semantic-ui-react'
+import {Button, Container, Header, Icon, Image, Message} from 'semantic-ui-react'
 import profileImage from '../../static/ruben.jpg'
 
 const IndexPage = () => (
@@ -35,6 +35,13 @@ const IndexPage = () => (
         Stack Exchange
       </Button>
     </div>
+
+    <Message warning>
+      <Message.Content>
+        <Message.Header>Website under construction!</Message.Header>
+        Some links may not work correctly but they should be resolved soon.
+      </Message.Content>
+    </Message>
   </Container>
 )
 
