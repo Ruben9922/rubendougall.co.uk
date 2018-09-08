@@ -14,6 +14,7 @@ const ProjectsPage = () => (
             Automaton Tool
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               Java, JavaFX
             </Label>
             <Label horizontal color="black" href="https://github.com/Ruben9922/automaton-tool">
@@ -36,6 +37,7 @@ const ProjectsPage = () => (
             RPN Calculator
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               Java, JavaFX
             </Label>
             <Label horizontal color="black" href="https://github.com/Ruben9922/rpn-calculator">
@@ -137,6 +139,7 @@ const ProjectsPage = () => (
             </a>
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               Java
             </Label>
           </List.Header>
@@ -154,6 +157,7 @@ const ProjectsPage = () => (
             </a>
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               Java
             </Label>
           </List.Header>
@@ -170,6 +174,7 @@ const ProjectsPage = () => (
             </a>
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               C#
             </Label>
           </List.Header>
@@ -190,6 +195,7 @@ const ProjectsPage = () => (
             </a>
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               PHP, SQLite
             </Label>
           </List.Header>
@@ -212,6 +218,7 @@ const ProjectsPage = () => (
             </a>
             &nbsp;
             <Label horizontal color="blue">
+              <Icon name="code"/>
               PHP
             </Label>
           </List.Header>
