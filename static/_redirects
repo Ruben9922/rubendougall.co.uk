@@ -2,3 +2,4 @@
 https://rubendougall.netlify.com/* https://rubendougall.co.uk/:splat 301!
 /fast-click-game/* https://rubendougall-fast-click-game.netlify.com/:splat 200!
 /permissions-calculator/* https://rubendougall-permissions-calculator.netlify.com/:splat 200!
+/click-game/* https://rubendougall-click-game.netlify.com/:splat 200!
