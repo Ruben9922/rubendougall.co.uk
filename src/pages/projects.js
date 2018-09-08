@@ -99,6 +99,32 @@ const ProjectsPage = () => (
           </List.Description>
         </List.Content>
       </List.Item>
+      <List.Item>
+        <List.Content>
+          <List.Header>
+            <a href={"/click-game/"}>
+              Click Game
+            </a>
+            &nbsp;
+            <Label horizontal color="blue">
+              <Icon name="code"/>
+              JS, React
+            </Label>
+            <Label horizontal color="black" href="https://github.com/Ruben9922/click-game">
+              <Icon name='github'/>
+              GitHub
+            </Label>
+          </List.Header>
+          <List.Description>
+            Incremental game in which you build up your score by pressing a button or purchasing in-game items.
+            <br/>
+            <strong>
+              <Icon name='warning circle'/>
+              Note that game progress is currently not saved, so any progress will be lost upon refreshing or closing the page. This is something I plan to add in future.
+            </strong>
+          </List.Description>
+        </List.Content>
+      </List.Item>
     </List>
 
     <Header as="h2">Store Apps</Header>
