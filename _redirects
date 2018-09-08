@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
 https://rubendougall.netlify.com/* https://rubendougall.co.uk/:splat 301!
+/fast-click-game/* https://fast-click-game.rubendougall.co.uk/:splat 200!
