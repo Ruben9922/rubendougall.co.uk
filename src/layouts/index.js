@@ -11,8 +11,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: data.site.siteMetadata.description },
-        { name: 'keywords', content: data.site.siteMetadata.keywords },
+        { name: 'description', content: 'Ruben Dougall. Computer Science student at University of Warwick. Recreational house music producer.' },
+        { name: 'keywords', content: 'ruben, dougall, rubendougall, personal, website, university, warwick, computer, science, student, house, music, producer' },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
