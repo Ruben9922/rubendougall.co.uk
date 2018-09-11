@@ -62,7 +62,7 @@ const ProjectsPage = () => (
       <List.Item>
         <List.Content>
           <List.Header>
-            <a href={"/fast-click-game/"}>
+            <a href={"/projects/fast-click-game/"}>
               Fast Click Game
             </a>
             &nbsp;
@@ -83,7 +83,7 @@ const ProjectsPage = () => (
       <List.Item>
         <List.Content>
           <List.Header>
-            <a href={"/permissions-calculator/"}>
+            <a href={"/projects/permissions-calculator/"}>
               Unix Permissions Calculator
             </a>
             &nbsp;
@@ -104,7 +104,7 @@ const ProjectsPage = () => (
       <List.Item>
         <List.Content>
           <List.Header>
-            <a href={"/click-game/"}>
+            <a href={"/projects/click-game/"}>
               Click Game
             </a>
             &nbsp;
