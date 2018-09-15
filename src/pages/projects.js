@@ -127,6 +127,27 @@ const ProjectsPage = () => (
           </List.Description>
         </List.Content>
       </List.Item>
+      <List.Item>
+        <List.Content>
+          <List.Header>
+            <a href={"/projects/wordsearch/"}>
+              Wordsearch Generator
+            </a>
+            &nbsp;
+            <Label horizontal color="blue">
+              <Icon name="code"/>
+              JS, React
+            </Label>
+            <Label horizontal color="black" href="https://github.com/Ruben9922/wordsearch">
+              <Icon name='github'/>
+              GitHub
+            </Label>
+          </List.Header>
+          <List.Description>
+            Generate a wordsearch from a list of words.
+          </List.Description>
+        </List.Content>
+      </List.Item>
     </List>
 
     <Header as="h2">Store Apps</Header>
