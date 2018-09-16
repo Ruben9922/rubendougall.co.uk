@@ -17,14 +17,6 @@ const ProjectsPage = () => (
               <Icon name="code"/>
               Java, JavaFX
             </Label>
-            <Label horizontal color="black" href="https://github.com/Ruben9922/automaton-tool">
-              <Icon name='github'/>
-              GitHub
-            </Label>
-            <Label horizontal color="black" href="https://github.com/Ruben9922/automaton-tool/releases">
-              <Icon name='download'/>
-              Download
-            </Label>
           </List.Header>
           <List.Description>
             Educational tool for finite automata, developed for my third year project at university. By far the most sizable project I have worked on.
