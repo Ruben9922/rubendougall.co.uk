@@ -11,7 +11,7 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Ruben Dougall. Computer Science student at University of Warwick. Recreational house music producer.' },
+        { name: 'description', content: 'Ruben Dougall. Computer Science student at University of Warwick.' },
         { name: 'keywords', content: 'ruben, dougall, rubendougall, personal, website, university, warwick, computer, science, student, house, music, producer' },
       ]}
     />
