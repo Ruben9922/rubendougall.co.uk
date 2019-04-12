@@ -19,7 +19,7 @@ const ProjectsPage = () => (
             </Label>
           </List.Header>
           <List.Description>
-            Educational tool for finite automata, developed for my third year project at university. By far the most sizable project I have worked on.
+            Educational tool for finite automata, developed for my third year project at university. It's certainly one of the most sizable projects I've worked on. I'll create a more modern (possibly web-based) remake of this at some point.
           </List.Description>
         </List.Content>
       </List.Item>
