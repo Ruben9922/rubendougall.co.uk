@@ -47,6 +47,29 @@ const ProjectsPage = () => (
           </List.Description>
         </List.Content>
       </List.Item>
+      <List.Item>
+        <List.Content>
+          <List.Header>
+            Snake Command-Line Game
+            &nbsp;
+            <Label horizontal color="blue">
+              <Icon name="code"/>
+              C++
+            </Label>
+            <Label horizontal color="black" href="https://github.com/Ruben9922/snake-cmd">
+              <Icon name='github'/>
+              GitHub
+            </Label>
+            <Label horizontal color="orange">
+              <Icon name='circle notched'/>
+              In development
+            </Label>
+          </List.Header>
+          <List.Description>
+            Command-line version of the classic Snake game.
+          </List.Description>
+        </List.Content>
+      </List.Item>
     </List>
 
     <Header as="h2">Web Apps</Header>
