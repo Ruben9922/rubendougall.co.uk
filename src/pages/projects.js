@@ -4,7 +4,7 @@ import {Container, Header, Icon, Label, List} from 'semantic-ui-react'
 const ProjectsPage = () => (
   <Container>
     <Header as="h1">Projects</Header>
-    This page lists some of the main projects I have been working on. A more complete list, including many unfinished projects, can be found on <a href="https://github.com/Ruben9922">GitHub</a>.
+    This page lists some of the main projects I have been working on. For some projects, more information can be found in the README of the GitHub repository. A more complete list, including many unfinished projects, can be found on <a href="https://github.com/Ruben9922">GitHub</a>.
 
     <Header as="h2">Desktop Apps</Header>
     <List relaxed divided>
