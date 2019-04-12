@@ -250,7 +250,7 @@ const ProjectsPage = () => (
         <List.Content>
           <List.Header>
             <a href="http://cs139.dcs.warwick.ac.uk/~u1515474/cs139/test/quadraticsolver.php">
-              Quadratic Solver
+              Quadratic Equation Solver
             </a>
             &nbsp;
             <Label horizontal color="blue">
