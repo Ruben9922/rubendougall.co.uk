@@ -259,7 +259,7 @@ const ProjectsPage = () => (
             </Label>
           </List.Header>
           <List.Description>
-            Find the solution of quadratic equations.
+            Find the solution of quadratic equations. I'll make a React version of this at some point, which will make use of MathJax.
           </List.Description>
         </List.Content>
       </List.Item>
