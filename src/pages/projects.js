@@ -243,6 +243,11 @@ const ProjectsPage = () => (
               Error messages aren't always displayed, so if nothing happens after pressing a button, please check
               the entered information is valid and try again.
             </strong>
+            <br/>
+            <strong>
+              <Icon name='warning circle'/>
+              Note that this was made as part of university coursework and is not intended for production use.
+            </strong>
           </List.Description>
         </List.Content>
       </List.Item>
