@@ -10,7 +10,7 @@
 
 ;(function ($, window, document, undefined) {
 
-  "use strict";
+"use strict";
 
 window = (typeof window != 'undefined' && window.Math == Math)
   ? window
@@ -301,7 +301,7 @@ $.fn.embed = function(parameters) {
         },
 
         remove: {
-          data: function () {
+          data: function() {
             $module
               .removeData(metadata.id)
               .removeData(metadata.icon)

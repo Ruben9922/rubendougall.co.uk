@@ -233,10 +233,11 @@ $.fn.dimmer = function(parameters) {
               : function(){}
             ;
             if(settings.useCSS && $.fn.transition !== undefined && $dimmer.transition('is supported')) {
-              if (settings.useFlex) {
+              if(settings.useFlex) {
                 module.debug('Using flex dimmer');
                 module.remove.legacy();
-              } else {
+              }
+              else {
                 module.debug('Using legacy non-flex dimmer');
                 module.set.legacy();
               }
@@ -245,7 +246,7 @@ $.fn.dimmer = function(parameters) {
               }
               $dimmer
                 .transition({
-                  displayType: settings.useFlex
+                  displayType : settings.useFlex
                     ? 'flex'
                     : 'block',
                   animation   : settings.transition + ' in',
@@ -292,7 +293,7 @@ $.fn.dimmer = function(parameters) {
               module.verbose('Hiding dimmer with css');
               $dimmer
                 .transition({
-                  displayType: settings.useFlex
+                  displayType : settings.useFlex
                     ? 'flex'
                     : 'block',
                   animation   : settings.transition + ' out',
@@ -417,7 +418,7 @@ $.fn.dimmer = function(parameters) {
             module.debug('Setting opacity to', opacity);
             $dimmer.css('background-color', color);
           },
-          legacy: function () {
+          legacy: function() {
             $dimmer.addClass(className.legacy);
           },
           active: function() {
@@ -449,7 +450,7 @@ $.fn.dimmer = function(parameters) {
               .removeClass(className.active)
             ;
           },
-          legacy: function () {
+          legacy: function() {
             $dimmer.removeClass(className.legacy);
           },
           dimmed: function() {
@@ -666,7 +667,7 @@ $.fn.dimmer.settings = {
   performance : true,
 
   // whether should use flex layout
-  useFlex: true,
+  useFlex     : true,
 
   // name to distinguish between multiple dimmers in context
   dimmerName  : false,
@@ -711,7 +712,7 @@ $.fn.dimmer.settings = {
     dimmer     : 'dimmer',
     disabled   : 'disabled',
     hide       : 'hide',
-    legacy: 'legacy',
+    legacy     : 'legacy',
     pageDimmer : 'page',
     show       : 'show'
   },

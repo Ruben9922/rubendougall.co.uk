@@ -166,7 +166,7 @@ $.fn.modal = function(parameters) {
         refresh: function() {
           module.remove.scrolling();
           module.cacheSizes();
-          if (!module.can.useFlex()) {
+          if(!module.can.useFlex()) {
             module.set.modalOffset();
           }
           module.set.screenHeight();
@@ -210,15 +210,15 @@ $.fn.modal = function(parameters) {
               .on('resize' + elementEventNamespace, module.event.resize)
             ;
           },
-          scrollLock: function () {
+          scrollLock: function() {
             // touch events default to passive, due to changes in chrome to optimize mobile perf
-            $dimmable.get(0).addEventListener('touchmove', module.event.preventScroll, {passive: false});
+            $dimmable.get(0).addEventListener('touchmove', module.event.preventScroll, { passive: false });
           }
         },
 
         unbind: {
-          scrollLock: function () {
-            $dimmable.get(0).removeEventListener('touchmove', module.event.preventScroll, {passive: false});
+          scrollLock: function() {
+            $dimmable.get(0).removeEventListener('touchmove', module.event.preventScroll, { passive: false });
           }
         },
 
@@ -239,7 +239,7 @@ $.fn.modal = function(parameters) {
               ignoreRepeatedEvents = false;
             });
           },
-          preventScroll: function (event) {
+          preventScroll: function(event) {
             event.preventDefault();
           },
           deny: function() {
@@ -341,9 +341,10 @@ $.fn.modal = function(parameters) {
           if( module.is.animating() || !module.is.active() ) {
             module.showDimmer();
             module.cacheSizes();
-            if (module.can.useFlex()) {
+            if(module.can.useFlex()) {
               module.remove.legacy();
-            } else {
+            }
+            else {
               module.set.legacy();
               module.set.modalOffset();
               module.debug('Using non-flex legacy modal positioning.');
@@ -538,7 +539,7 @@ $.fn.modal = function(parameters) {
           active: function() {
             $module.removeClass(className.active);
           },
-          legacy: function () {
+          legacy: function() {
             $module.removeClass(className.legacy);
           },
           clickaway: function() {
@@ -546,7 +547,7 @@ $.fn.modal = function(parameters) {
               .off('click' + elementEventNamespace)
             ;
           },
-          dimmerStyles: function () {
+          dimmerStyles: function() {
             $dimmer.removeClass(className.inverted);
             $dimmable.removeClass(className.blurring);
           },
@@ -578,13 +579,13 @@ $.fn.modal = function(parameters) {
           $module.addClass(className.loading);
           var
             scrollHeight = $module.prop('scrollHeight'),
-            modalWidth = $module.outerWidth(),
+            modalWidth   = $module.outerWidth(),
             modalHeight  = $module.outerHeight()
           ;
           if(module.cache === undefined || modalHeight !== 0) {
             module.cache = {
               pageHeight    : $(document).outerHeight(),
-              width: modalWidth,
+              width         : modalWidth,
               height        : modalHeight + settings.offset,
               scrollHeight  : scrollHeight + settings.offset,
               contextHeight : (settings.context == 'body')
@@ -598,11 +599,11 @@ $.fn.modal = function(parameters) {
         },
 
         can: {
-          useFlex: function () {
+          useFlex: function() {
             return (settings.useFlex == 'auto')
               ? settings.detachable && !module.is.ie()
               : settings.useFlex
-              ;
+            ;
           },
           fit: function() {
             var
@@ -625,10 +626,10 @@ $.fn.modal = function(parameters) {
           active: function() {
             return $module.hasClass(className.active);
           },
-          ie: function () {
+          ie: function() {
             var
               isIE11 = (!(window.ActiveXObject) && 'ActiveXObject' in window),
-              isIE = ('ActiveXObject' in window)
+              isIE   = ('ActiveXObject' in window)
             ;
             return (isIE11 || isIE);
           },
@@ -675,7 +676,7 @@ $.fn.modal = function(parameters) {
                 debug      : settings.debug,
                 dimmerName : 'modals',
                 closable   : 'auto',
-                useFlex: module.can.useFlex(),
+                useFlex    : module.can.useFlex(),
                 variation  : settings.centered
                   ? false
                   : 'top aligned',
@@ -694,19 +695,21 @@ $.fn.modal = function(parameters) {
             }
             $context.dimmer('setting', dimmerSettings);
           },
-          dimmerStyles: function () {
-            if (settings.inverted) {
+          dimmerStyles: function() {
+            if(settings.inverted) {
               $dimmer.addClass(className.inverted);
-            } else {
+            }
+            else {
               $dimmer.removeClass(className.inverted);
             }
             if(settings.blurring) {
               $dimmable.addClass(className.blurring);
-            } else {
+            }
+            else {
               $dimmable.removeClass(className.blurring);
             }
           },
-          modalOffset: function () {
+          modalOffset: function() {
             var
               width = module.cache.width,
               height = module.cache.height
@@ -740,7 +743,7 @@ $.fn.modal = function(parameters) {
             $module.addClass(className.scrolling);
             module.unbind.scrollLock();
           },
-          legacy: function () {
+          legacy: function() {
             $module.addClass(className.legacy);
           },
           type: function() {
@@ -949,8 +952,8 @@ $.fn.modal.settings = {
   name           : 'Modal',
   namespace      : 'modal',
 
-  useFlex: 'auto',
-  offset: 0,
+  useFlex        : 'auto',
+  offset         : 0,
 
   silent         : false,
   debug          : false,
@@ -1020,7 +1023,7 @@ $.fn.modal.settings = {
     animating  : 'animating',
     blurring   : 'blurring',
     inverted   : 'inverted',
-    legacy: 'legacy',
+    legacy     : 'legacy',
     loading    : 'loading',
     scrolling  : 'scrolling',
     undetached : 'undetached'

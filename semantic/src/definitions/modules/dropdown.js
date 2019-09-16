@@ -1019,9 +1019,10 @@ $.fn.dropdown = function(parameters) {
           },
           icon: {
             click: function(event) {
-              if ($icon.hasClass(className.clear)) {
+              if($icon.hasClass(className.clear)) {
                 module.clear();
-              } else if (module.can.click()) {
+              }
+              else if (module.can.click()) {
                 module.toggle();
               }
             }
@@ -2485,11 +2486,12 @@ $.fn.dropdown = function(parameters) {
                 $module.data(metadata.value, stringValue);
               }
             }
-            if (module.is.single() && settings.clearable) {
+            if(module.is.single() && settings.clearable) {
               // treat undefined or '' as empty
-              if (!escapedValue) {
+              if(!escapedValue) {
                 module.remove.clearable();
-              } else {
+              }
+              else {
                 module.set.clearable();
               }
             }
@@ -2589,7 +2591,7 @@ $.fn.dropdown = function(parameters) {
               })
             ;
           },
-          clearable: function () {
+          clearable: function() {
             $icon.addClass(className.clear);
           },
         },
@@ -3015,7 +3017,7 @@ $.fn.dropdown = function(parameters) {
               ;
             }
           },
-          clearable: function () {
+          clearable: function() {
             $icon.removeClass(className.clear);
           }
         },
@@ -3704,7 +3706,7 @@ $.fn.dropdown.settings = {
 
   values                 : false,      // specify values to use for dropdown
 
-  clearable: false,      // whether the value of the dropdown can be cleared
+  clearable              : false,      // whether the value of the dropdown can be cleared
 
   apiSettings            : false,
   selectOnKeydown        : true,       // Whether selection should occur automatically when keyboard shortcuts used
@@ -3858,7 +3860,7 @@ $.fn.dropdown.settings = {
     active      : 'active',
     addition    : 'addition',
     animating   : 'animating',
-    clear: 'clear',
+    clear       : 'clear',
     disabled    : 'disabled',
     empty       : 'empty',
     dropdown    : 'ui dropdown',

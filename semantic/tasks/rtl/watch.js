@@ -17,12 +17,12 @@ var
   less         = require('gulp-less'),
   minifyCSS    = require('gulp-clean-css'),
   plumber      = require('gulp-plumber'),
-  print = require('gulp-print').default,
+  print        = require('gulp-print').default,
   rename       = require('gulp-rename'),
   replace      = require('gulp-replace'),
   rtlcss       = require('gulp-rtlcss'),
   uglify       = require('gulp-uglify'),
-  replaceExt = require('replace-ext'),
+  replaceExt   = require('replace-ext'),
   watch        = require('gulp-watch'),
 
   // user config

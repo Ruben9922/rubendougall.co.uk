@@ -358,19 +358,16 @@
 .modals.dimmer[class*="top aligned"] .modal {
   margin: @topAlignedMargin auto;
 }
-
-@media only screen and (max-width: @largestMobileScreen) {
+@media only screen and (max-width : @largestMobileScreen) {
   .modals.dimmer[class*="top aligned"] .modal {
     margin: @mobileTopAlignedMargin auto;
   }
 }
-
 /* Legacy Top Aligned */
 .legacy.modals.dimmer[class*="top aligned"] {
   padding-top: @topAlignedMargin;
 }
-
-@media only screen and (max-width: @largestMobileScreen) {
+@media only screen and (max-width : @largestMobileScreen) {
   .legacy.modals.dimmer[class*="top aligned"] {
     padding-top: @mobileTopAlignedMargin;
   }

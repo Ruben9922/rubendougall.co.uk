@@ -1012,9 +1012,10 @@ $.fn.popup = function(parameters) {
             if(settings.hideOnScroll === true || (settings.hideOnScroll == 'auto' && settings.on != 'click')) {
               module.bind.closeOnScroll();
             }
-            if (module.is.closable()) {
+            if(module.is.closable()) {
               module.bind.clickaway();
-            } else if (settings.on == 'hover' && openedWithTouch) {
+            }
+            else if(settings.on == 'hover' && openedWithTouch) {
               module.bind.touchClose();
             }
           },
@@ -1076,9 +1077,9 @@ $.fn.popup = function(parameters) {
         },
 
         is: {
-          closable: function () {
-            if (settings.closable == 'auto') {
-              if (settings.on == 'hover') {
+          closable: function() {
+            if(settings.closable == 'auto') {
+              if(settings.on == 'hover') {
                 return false;
               }
               return true;
