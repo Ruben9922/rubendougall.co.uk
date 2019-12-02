@@ -1,6 +1,0 @@
-/*******************************
-     User Global Variables
-*******************************/
-
-@fontName          : 'Ubuntu';
-@headerFontWeight : @normal;

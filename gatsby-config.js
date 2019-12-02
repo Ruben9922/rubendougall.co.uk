@@ -1,16 +1,9 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+
 module.exports = {
-  siteMetadata: {
-    title: 'Ruben Dougall',
-  },
-  plugins: [
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-23280894-7",
-        anonymize: true,
-        respectDNT: true,
-      },
-    },
-  ],
+  /* Your site config here */
 }
