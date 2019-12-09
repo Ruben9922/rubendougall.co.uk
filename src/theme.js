@@ -1,19 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
-  typography: {
-    fontFamily: [
-      "Ubuntu",
-      "Roboto",
-      "\"Helvetica Neue\"",
-      "Arial",
-      "sans-serif",
-      "\"Apple Color Emoji\"",
-      "\"Segoe UI Emoji\"",
-      "\"Segoe UI Symbol\"",
-    ].join(","),
-    fontSize: 13,
-  },
   palette: {
     primary: {
       light: "#484848",
