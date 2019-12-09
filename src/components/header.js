@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import AppBar from "@material-ui/core/AppBar";
 import { makeStyles } from "@material-ui/core/styles";
+import Link from "@material-ui/core/Link";
 
 export default function Header() {
   const useStyles = makeStyles(theme => ({
@@ -25,7 +26,9 @@ export default function Header() {
           <MenuIcon/>
         </IconButton>
         <Typography variant="h6" className={classes.title}>
-          Ruben Dougall
+          <Link href="/" color="inherit">
+            Ruben Dougall
+          </Link>
         </Typography>
         <Button color="inherit" href="/projects">Projects</Button>
         <Button color="inherit" href="/tutorials">Tutorials</Button>
