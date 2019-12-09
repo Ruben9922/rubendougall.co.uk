@@ -1,18 +1,13 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import { makeStyles, ThemeProvider } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
 import Grid from "@material-ui/core/Grid";
-import theme from "../theme";
-import Header from "../components/header";
 import Project from "../components/project";
+import Layout from "../components/layout";
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
   header: {
     fontWeight: "bold",
   },
@@ -122,11 +117,7 @@ export default function IndexPage() {
   };
 
   return (
-    <ThemeProvider theme={theme} className={classes.root}>
-      <CssBaseline/>
-
-      <Header/>
-
+    <Layout>
       <Container maxWidth="lg">
         <Typography variant="h4" component="h1" className={classes.header} gutterBottom>
           Projects
@@ -156,10 +147,6 @@ export default function IndexPage() {
           </div>,
         )}
       </Container>
-
-      {/*TODO: Replace this with Ubuntu font*/}
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    </ThemeProvider>
+    </Layout>
   );
 }
