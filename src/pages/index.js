@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
@@ -7,15 +7,13 @@ import Grid from "@material-ui/core/Grid";
 import Project from "../components/project";
 import Layout from "../components/layout";
 
-const useStyles = makeStyles(theme => ({
+const styles = {
   header: {
     fontWeight: "bold",
   },
-}));
+};
 
-export default function IndexPage() {
-  const classes = useStyles();
-
+function IndexPage({ classes }) {
   let desktopApps = {
     name: "Desktop Apps",
     height: 250,
@@ -150,3 +148,5 @@ export default function IndexPage() {
     </Layout>
   );
 }
+
+export default withStyles(styles)(IndexPage);
