@@ -12,7 +12,7 @@ const styles = {
 
 function Layout({ children, classes }) {
   return (
-    <ThemeProvider theme={theme} className={classes.root}>
+    <ThemeProvider theme={theme}>
       <CssBaseline/>
       <Header/>
 
