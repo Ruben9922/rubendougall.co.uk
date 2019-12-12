@@ -47,38 +47,44 @@ const IndexPage = ({ classes }) => {
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<InstagramIcon/>}>
+          startIcon={<InstagramIcon/>}
+          href="https://www.instagram.com/rubendougall/">
           Instagram
         </Button>
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<QueueMusicIcon/>}>
+          startIcon={<QueueMusicIcon/>}
+          href="https://www.last.fm/user/ruben_rjd">
           Last.fm
         </Button>
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<EqualizerIcon/>}>
+          startIcon={<EqualizerIcon/>}
+          href="https://soundcloud.com/ruben-dougall">
           SoundCloud
         </Button>
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<LinkedInIcon/>}>
+          startIcon={<LinkedInIcon/>}
+          href="https://www.linkedin.com/in/rubendougall/">
           LinkedIn
         </Button>
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<GitHubIcon/>}>
+          startIcon={<GitHubIcon/>}
+          href="https://github.com/Ruben9922">
           GitHub
         </Button>
         <Button
           variant="contained"
           className={classes.button}
-          startIcon={<QuestionAnswerIcon/>}>
-          Stack Exchange
+          startIcon={<QuestionAnswerIcon/>}
+          href="https://stackoverflow.com/users/3806231/ruben9922">
+          Stack Overflow
         </Button>
       </Container>
     </Layout>
