@@ -14,7 +14,7 @@ import HourglassEmptyIcon from "@material-ui/icons/HourglassEmpty";
 import { withStyles } from "@material-ui/core/styles";
 import blue from "@material-ui/core/colors/blue";
 
-const styles = {
+const styles = theme => ({
   root: {
     flexGrow: 1,
   },
@@ -37,7 +37,10 @@ const styles = {
     backgroundColor: blue[900],
     color: "#ffffff",
   },
-};
+  chip: {
+    margin: theme.spacing(0.5),
+  },
+});
 
 class Project extends React.Component {
   render() {
@@ -66,11 +69,12 @@ class Project extends React.Component {
           label={tools.join(", ")}
           icon={<CodeIcon /*style={{ color: '#ffffff' }}*//>}
           color="secondary"
-          className={classes.toolsChip}
+          className={`${classes.toolsChip} ${classes.chip}`}
         />
         {inDevelopment && <Chip
           label="In development"
           icon={<HourglassEmptyIcon /*style={{ color: '#ffffff' }}*//>}
+          className={classes.chip}
         />}
       </CardContent>
     );
