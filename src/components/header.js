@@ -10,7 +10,7 @@ import Link from "@material-ui/core/Link";
 export default function Header() {
   const useStyles = makeStyles(theme => ({
     menuButton: {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(2.5),
     },
     title: {
       flexGrow: 1,
