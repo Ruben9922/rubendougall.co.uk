@@ -8,9 +8,6 @@ import Project from "../components/project";
 import Layout from "../components/layout";
 
 const styles = {
-  header: {
-    fontWeight: "bold",
-  },
 };
 
 function ProjectsPage({ classes }) {
@@ -117,7 +114,7 @@ function ProjectsPage({ classes }) {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h4" component="h1" className={classes.header} gutterBottom>
+        <Typography variant="h4" component="h1" gutterBottom>
           Projects
         </Typography>
         <Typography paragraph>
@@ -125,7 +122,7 @@ function ProjectsPage({ classes }) {
         </Typography>
         {[desktopApps, webApps, storeApps, otherApps].map((projects, index1) =>
           <div key={index1}>
-            <Typography variant="h5" component="h2" className={classes.header} gutterBottom>
+            <Typography variant="h5" component="h2" gutterBottom>
               {projects.name}
             </Typography>
             <Grid container spacing={4} /*style={{ backgroundColor: "#f5f5f5"}}*/>
