@@ -23,7 +23,7 @@ export default function Header() {
       <Toolbar>
         <CodeIcon edge="start" className={classes.menuButton} color="inherit"/>
         <Typography variant="h6" className={classes.title}>
-          <Link href="/" color="inherit">
+          <Link href="/" color="inherit" underline="none">
             Ruben Dougall
           </Link>
         </Typography>
