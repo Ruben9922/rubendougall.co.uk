@@ -136,7 +136,10 @@ function ProjectsPage({ classes }) {
         </List>
         <Typography paragraph>
           My course involved completing numerous pieces of coursework. Some allowed me to put into practice the theory learnt during lectures; others involved researching further into the topic and forming my own ideas. They often involved writing a technical report which enabled me to perfect expressing complex processes in a clear, succinct way. Significant pieces of coursework included:
-          {/* TODO: Finished adding links - e.g. wiki pages for algorithms */}
+          {/* TODO: Finished adding links - e.g. wiki pages for algorithms
+          TODO: Sort out card heights
+          TODO: Add screenshots to projects page
+          */}
           <ul>
             <li>Implementing data mining techniques, e.g., classification, dimensionality reduction, neural networks and parameter tuning (grid search), using NumPy, Scikit-Learn, Matplotlib and Keras in Python;</li>
             <li>Specifying and implementing abstract machines using <Link href="https://www.atelierb.eu/en/">Atelier B</Link>;</li>
