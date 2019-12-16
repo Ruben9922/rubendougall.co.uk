@@ -23,7 +23,7 @@ const styles = theme => ({
   },
 });
 
-function ProjectsPage({ classes }) {
+function AboutPage({ classes }) {
   const [open, setOpen] = React.useState(Array(4).fill(false));
 
   const handleClick = index => {
@@ -170,4 +170,4 @@ function ProjectsPage({ classes }) {
   );
 }
 
-export default withStyles(styles)(ProjectsPage);
+export default withStyles(styles)(AboutPage);
