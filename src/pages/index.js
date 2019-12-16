@@ -5,7 +5,7 @@ import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
 import Layout from "../components/layout";
 import Avatar from "@material-ui/core/Avatar";
-import profileImage from "../../public/ruben.jpg";
+import profileImage from "../images/ruben.jpg";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import QueueMusicIcon from "@material-ui/icons/QueueMusic";
 import EqualizerIcon from "@material-ui/icons/Equalizer";
