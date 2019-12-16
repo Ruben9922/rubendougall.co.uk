@@ -92,7 +92,7 @@ function AboutPage({ classes }) {
           About
         </Typography>
         <Typography paragraph>
-          I'm a Computer Science graduate from University of Warwick and .NET Developer at a local automotive consulting company.
+          I'm a Computer Science graduate from the University of Warwick and .NET Developer at a local automotive consulting company.
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom>
           University
