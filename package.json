@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "rubendougall.co.uk",
+  "description": "Ruben Dougall's personal website",
+  "version": "0.1.0",
+  "author": "Ruben Dougall <info.ruebz999@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.46",
