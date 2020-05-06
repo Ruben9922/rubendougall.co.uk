@@ -133,7 +133,8 @@ function ProjectsPage({ classes }) {
                     downloadLink={project.downloadLink}
                     inDevelopment={project.inDevelopment}
                   />
-                </Grid>)}
+                </Grid>
+              )}
             </Grid>
           </div>,
         )}
