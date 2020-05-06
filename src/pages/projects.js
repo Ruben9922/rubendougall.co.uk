@@ -123,16 +123,17 @@ function ProjectsPage({ classes }) {
             </Typography>
             <Grid container spacing={3}>
               {projects.projects.map((project, index2) =>
-                <Project
-                  key={index2}
-                  name={project.name}
-                  description={project.description}
-                  tools={project.tools}
-                  link={project.link}
-                  sourceCodeLink={project.sourceCodeLink}
-                  downloadLink={project.downloadLink}
-                  inDevelopment={project.inDevelopment}
-                />)}
+                <Grid item sm={6} md={4} key={index2} style={{display: "flex"}}>
+                  <Project
+                    name={project.name}
+                    description={project.description}
+                    tools={project.tools}
+                    link={project.link}
+                    sourceCodeLink={project.sourceCodeLink}
+                    downloadLink={project.downloadLink}
+                    inDevelopment={project.inDevelopment}
+                  />
+                </Grid>)}
             </Grid>
           </div>,
         )}

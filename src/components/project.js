@@ -28,7 +28,6 @@ class Project extends React.Component {
   render() {
     const {
       classes,
-      index,
       name,
       description,
       tools,
@@ -61,29 +60,27 @@ class Project extends React.Component {
     );
 
     return (
-      <Grid item sm={6} md={4} key={index} style={{display: "flex"}}>
-        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column', width: "100%"}}>
-          {link === undefined ? cardContent :
-            <CardActionArea href={link}>
-              {cardContent}
-            </CardActionArea>
+      <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column', width: "100%"}}>
+        {link === undefined ? cardContent :
+          <CardActionArea href={link}>
+            {cardContent}
+          </CardActionArea>
+        }
+        {(sourceCodeLink === undefined && downloadLink === undefined) ||
+        <CardActions disableSpacing>
+          {sourceCodeLink === undefined ||
+          <IconButton aria-label="GitHub" href={sourceCodeLink}>
+            <GitHubIcon/>
+          </IconButton>
           }
-          {(sourceCodeLink === undefined && downloadLink === undefined) ||
-          <CardActions disableSpacing>
-            {sourceCodeLink === undefined ||
-            <IconButton aria-label="GitHub" href={sourceCodeLink}>
-              <GitHubIcon/>
-            </IconButton>
-            }
-            {downloadLink === undefined ||
-            <IconButton aria-label="Download" href={downloadLink}>
-              <GetAppIcon/>
-            </IconButton>
-            }
-          </CardActions>
+          {downloadLink === undefined ||
+          <IconButton aria-label="Download" href={downloadLink}>
+            <GetAppIcon/>
+          </IconButton>
           }
-        </Card>
-      </Grid>
+        </CardActions>
+        }
+      </Card>
     );
   }
 }
