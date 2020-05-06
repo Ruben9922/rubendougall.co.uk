@@ -7,13 +7,12 @@ import Grid from "@material-ui/core/Grid";
 import Project from "../components/project";
 import Layout from "../components/layout";
 
-const styles = {
-};
+const styles = theme => ({
+});
 
 function ProjectsPage({ classes }) {
   let desktopApps = {
     name: "Desktop Apps",
-    height: 250,
     projects: [
       {
         name: "Automaton Tool",
@@ -38,7 +37,6 @@ function ProjectsPage({ classes }) {
   };
   let webApps = {
     name: "Web Apps",
-    height: 250,
     projects: [
       {
         name: "Fast Click Game",
@@ -72,7 +70,6 @@ function ProjectsPage({ classes }) {
   };
   let storeApps = {
     name: "Store Apps",
-    height: 200,
     projects: [
       {
         name: "Binary Converter",
@@ -96,7 +93,6 @@ function ProjectsPage({ classes }) {
   };
   let otherApps = {
     name: "Other",
-    height: 200,
     projects: [
       {
         name: "Bill Splitter",
@@ -125,11 +121,10 @@ function ProjectsPage({ classes }) {
             <Typography variant="h5" component="h2" gutterBottom>
               {projects.name}
             </Typography>
-            <Grid container spacing={4} /*style={{ backgroundColor: "#f5f5f5"}}*/>
+            <Grid container spacing={3}>
               {projects.projects.map((project, index2) =>
                 <Project
                   key={index2}
-                  height={projects.height}
                   name={project.name}
                   description={project.description}
                   tools={project.tools}

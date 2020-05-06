@@ -15,24 +15,6 @@ import { withStyles } from "@material-ui/core/styles";
 import blue from "@material-ui/core/colors/blue";
 
 const styles = theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  card: {
-    minWidth: 275,
-    //width: 275,
-  },
-  cardContent: {
-    height: props => {
-      const {
-        height,
-        sourceCodeLink,
-        downloadLink,
-      } = props;
-      const contentHeight = sourceCodeLink === undefined && downloadLink === undefined ? height : (height - 62.2812);
-      return contentHeight + "px";
-    },
-  },
   toolsChip: {
     backgroundColor: blue[900],
     color: "#ffffff",
@@ -47,7 +29,6 @@ class Project extends React.Component {
     const {
       classes,
       index,
-      height = 300,
       name,
       description,
       tools,
@@ -58,7 +39,7 @@ class Project extends React.Component {
     } = this.props;
 
     const cardContent = (
-      <CardContent className={classes.cardContent}>
+      <CardContent>
         <Typography gutterBottom variant="h6" component="h2">
           {name}
         </Typography>
@@ -80,8 +61,8 @@ class Project extends React.Component {
     );
 
     return (
-      <Grid item md={3}>
-        <Card key={index} className={classes.card}>
+      <Grid item sm={6} md={4} key={index} style={{display: "flex"}}>
+        <Card style={{display: 'flex', justifyContent: 'space-between', flexDirection: 'column', width: "100%"}}>
           {link === undefined ? cardContent :
             <CardActionArea href={link}>
               {cardContent}
