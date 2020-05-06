@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 14
+deploy:
+  provider: netlify
+  site: 4f0d9262-8ca9-489b-8fda-f12549d81425
+  auth:
+    secure: k73kNiF+I6mwhrtEsih3jt0VtwRIgnMkCxOFQXKN+1yywSPkTQdJvDsljAW7Tx839lj9GxN8dY4+A1jcrtgETGQlCgU03hTv75aV66XfMCJhBhwnpCUSnA4+qX3DtATcWiTCkQ6eV0PehX1aRcusfRjwkRgauQ1gUQJIxVcxwHaJ7VGrIguKSVjkoC+vHlRwPL0EBOR5/LoyUjIVSQ8g62P2fBcfaH1R9eQDOucpRkO/6uDSevAyZJfmE0f+NyJD3JJHcQnj+uO3Uy1QDdP3K6qca+BAj0/dSR9/KICh4+mY/WC+PVtPVR4wit29ELGgHZ5fPdoRL6/1asBo11YXfGvIRoVSdUiFXFIIwPaRrj/8PrDMkzr0S4lGPV72q4AuvClPNZSFbjUl24WJ5iuwrWj3J6LMfWcN7VxaoSxzvQngXtnmLR3LLo2uYdFLFGRsaANWSprTLpY0ds23fyckMt4K1zoO/9VdspJW3THpSbjP2n72OrGt5Uy7kq/t68HyhDp7PpsyAP4g2zBQmFrdmEhRbRRimQtxVQuBZ1wHBvQ0TvLoQHNhhhsJonOmedz6BV3H6NFpqu9uY5cTtR+MbdxMteR7Zy6mfuo9wBRpJwZWK3RfN5RF/jrQFBlPtcCQ32XqjsPnGCKUZxUoSZd0Fb+QXH4Ka3WKi00e2M52PHs=
+  edge: true
