@@ -21,6 +21,10 @@ const styles = theme => ({
   chip: {
     margin: theme.spacing(0.5),
   },
+  cardTitle: {
+    marginTop: "initial",
+    marginBottom: "initial",
+  }
 });
 
 class Project extends React.Component {
@@ -38,7 +42,7 @@ class Project extends React.Component {
 
     const cardContent = (
       <CardContent>
-        <Typography gutterBottom variant="h6" component="h2">
+        <Typography gutterBottom variant="h5" component="h2" className={classes.cardTitle}>
           {name}
         </Typography>
         <Typography paragraph variant="body2" color="textSecondary" component="p">

@@ -15,12 +15,14 @@ export default function Header() {
     },
     title: {
       flexGrow: 1,
+      marginTop: "initial",
+      marginBottom: "initial",
     },
   }));
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar>
       <Toolbar>
         <IconButton edge="start" className={classes.menuButton} color="inherit" href="/">
           <CodeIcon />

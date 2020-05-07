@@ -110,7 +110,7 @@ function ProjectsPage({ classes }) {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h4" component="h1" gutterBottom>
+        <Typography variant="h4">
           Projects
         </Typography>
         <Typography paragraph>
@@ -118,7 +118,7 @@ function ProjectsPage({ classes }) {
         </Typography>
         {[desktopApps, webApps, storeApps, otherApps].map((projects, index1) =>
           <div key={index1}>
-            <Typography variant="h5" component="h2" gutterBottom>
+            <Typography variant="h5">
               {projects.name}
             </Typography>
             <Grid container spacing={3}>

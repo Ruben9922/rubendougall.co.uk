@@ -10,7 +10,7 @@ function TutorialsPage({ classes }) {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h4" component="h1" gutterBottom>
+        <Typography variant="h4">
           Tutorials
         </Typography>
         <Typography paragraph>

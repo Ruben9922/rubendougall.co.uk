@@ -87,13 +87,13 @@ function AboutPage({ classes }) {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <Typography variant="h4" component="h1" gutterBottom>
+        <Typography variant="h4">
           About
         </Typography>
         <Typography paragraph>
           I'm a Computer Science graduate from the University of Warwick and .NET Developer at a local automotive consulting company.
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5">
           University
         </Typography>
         <Typography paragraph>
@@ -149,7 +149,7 @@ function AboutPage({ classes }) {
             <li>Using MATLAB to implement digital forensics techniques, e.g., watermarking, compression-based forensics, copy-move forgery detection and source identification.</li>
           </ul>
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5">
           Computing
         </Typography>
         <Typography paragraph>
@@ -158,7 +158,7 @@ function AboutPage({ classes }) {
         <Typography paragraph>
           I'm interested in pretty much all kinds of software, including command-line, GUI, web and 3D graphics applications. You may wish to visit the Projects page. I'm also interested in learning more about machine learning in Python and full-stack web applications in Django, having used these in my last year at university.
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5">
           Music
         </Typography>
         <Typography paragraph>
