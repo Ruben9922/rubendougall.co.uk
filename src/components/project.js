@@ -12,11 +12,10 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import HourglassEmptyIcon from "@material-ui/icons/HourglassEmpty";
 import { withStyles } from "@material-ui/core/styles";
-import blue from "@material-ui/core/colors/blue";
 
 const styles = theme => ({
   toolsChip: {
-    backgroundColor: blue[900],
+    backgroundColor: theme.palette.primary.main,
     color: "#ffffff",
   },
   chip: {
