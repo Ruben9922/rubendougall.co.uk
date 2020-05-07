@@ -46,6 +46,7 @@ const IndexPage = ({ classes }) => {
         </Typography>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<InstagramIcon/>}
           href="https://www.instagram.com/rubendougall/">
@@ -53,6 +54,7 @@ const IndexPage = ({ classes }) => {
         </Button>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<QueueMusicIcon/>}
           href="https://www.last.fm/user/ruben_rjd">
@@ -60,6 +62,7 @@ const IndexPage = ({ classes }) => {
         </Button>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<EqualizerIcon/>}
           href="https://soundcloud.com/ruben-dougall">
@@ -67,6 +70,7 @@ const IndexPage = ({ classes }) => {
         </Button>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<LinkedInIcon/>}
           href="https://www.linkedin.com/in/rubendougall/">
@@ -74,6 +78,7 @@ const IndexPage = ({ classes }) => {
         </Button>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<GitHubIcon/>}
           href="https://github.com/Ruben9922">
@@ -81,6 +86,7 @@ const IndexPage = ({ classes }) => {
         </Button>
         <Button
           variant="contained"
+          color="primary"
           className={classes.button}
           startIcon={<QuestionAnswerIcon/>}
           href="https://stackoverflow.com/users/3806231/ruben9922">
