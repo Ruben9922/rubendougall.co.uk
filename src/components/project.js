@@ -53,11 +53,13 @@ class Project extends React.Component {
           icon={<CodeIcon /*style={{ color: '#ffffff' }}*//>}
           color="secondary"
           className={`${classes.toolsChip} ${classes.chip}`}
+          size="small"
         />
         {inDevelopment && <Chip
           label="In development"
           icon={<HourglassEmptyIcon /*style={{ color: '#ffffff' }}*//>}
           className={classes.chip}
+          size="small"
         />}
       </CardContent>
     );
