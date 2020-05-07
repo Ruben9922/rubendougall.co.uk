@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - 14
+script:
+  - npm build
 deploy:
   provider: netlify
   site: 4f0d9262-8ca9-489b-8fda-f12549d81425
