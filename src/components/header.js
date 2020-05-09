@@ -10,9 +10,6 @@ import IconButton from "@material-ui/core/IconButton";
 
 export default function Header() {
   const useStyles = makeStyles(theme => ({
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
     title: {
       flexGrow: 1,
       marginTop: "initial",
@@ -24,9 +21,9 @@ export default function Header() {
   return (
     <AppBar>
       <Toolbar>
-        <IconButton edge="start" className={classes.menuButton} color="inherit" href="/">
-          <CodeIcon />
-        </IconButton>
+        {/*<IconButton edge="start" className={classes.menuButton} color="inherit" href="/">*/}
+        {/*  <CodeIcon />*/}
+        {/*</IconButton>*/}
         <Typography variant="h6" className={classes.title}>
           <Link href="/" color="inherit" underline="none">
             Ruben Dougall
