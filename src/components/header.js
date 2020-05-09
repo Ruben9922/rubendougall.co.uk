@@ -30,7 +30,7 @@ export default function Header() {
           </Link>
         </Typography>
         <Button color="inherit" href="/projects">Projects</Button>
-        <Button color="inherit" href="/tutorials">Tutorials</Button>
+        {/*<Button color="inherit" href="/tutorials">Tutorials</Button>*/}
         <Button color="inherit" href="/about">About</Button>
       </Toolbar>
     </AppBar>
