@@ -6,6 +6,7 @@ import Link from "@material-ui/core/Link";
 import Grid from "@material-ui/core/Grid";
 import Project from "../components/project";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const styles = theme => ({
 });
@@ -109,6 +110,7 @@ function ProjectsPage({ classes }) {
 
   return (
     <Layout>
+      <SEO title="Projects"/>
       <Container maxWidth="lg">
         <Typography variant="h4">
           Projects

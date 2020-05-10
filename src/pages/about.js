@@ -10,6 +10,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import { ExpandLess, ExpandMore, StarBorder } from "@material-ui/icons";
+import SEO from "../components/seo";
 
 const styles = theme => ({
   root: {
@@ -86,6 +87,7 @@ function AboutPage({ classes }) {
 
   return (
     <Layout>
+      <SEO title="About"/>
       <Container maxWidth="lg">
         <Typography variant="h4">
           About

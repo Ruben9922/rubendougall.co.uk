@@ -3,6 +3,7 @@ import theme from "../theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./header";
 import { ThemeProvider, withStyles } from "@material-ui/core/styles";
+import SEO from "./seo";
 
 const styles = {
   root: {
@@ -13,6 +14,7 @@ const styles = {
 function Layout({ children, classes }) {
   return (
     <ThemeProvider theme={theme}>
+      <SEO/>
       <CssBaseline/>
       <Header/>
 
