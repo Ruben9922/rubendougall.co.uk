@@ -49,7 +49,7 @@ const IndexPage = ({ classes }) => {
           color="primary"
           className={classes.button}
           startIcon={<InstagramIcon/>}
-          href="https://www.instagram.com/rubendougall/">
+          href="https://www.instagram.com/rubendougallphotography/">
           Instagram
         </Button>
         <Button
