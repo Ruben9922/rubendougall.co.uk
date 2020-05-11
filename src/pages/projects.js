@@ -17,7 +17,7 @@ function ProjectsPage({ classes }) {
     projects: [
       {
         name: "Automaton Tool",
-        description: "Educational tool for finite automata, developed for my third year project at university. It's certainly one of the most sizable projects I've worked on. I'll create a more modern (possibly web-based) remake of this at some point.",
+        description: <span>Educational tool for <Link href='https://en.wikipedia.org/wiki/Finite-state_machine'>finite automata</Link> (FAs), developed for my third year project at university. Features include: running an FA, determinising an FA, minimising a DFA using Hopcroft's algorithm and drawing the state-transition diagram.</span>,
         tools: ["Java", "JavaFX"],
       },
       {
@@ -30,9 +30,8 @@ function ProjectsPage({ classes }) {
       {
         name: "Snake Command-Line Game",
         description: "Command-line version of the classic Snake game.",
-        tools: ["C++"],
+        tools: ["Python"],
         sourceCodeLink: "https://github.com/Ruben9922/snake-cmd",
-        inDevelopment: true,
       },
     ],
   };
@@ -40,32 +39,32 @@ function ProjectsPage({ classes }) {
     name: "Web Apps",
     projects: [
       {
-        name: "Fast Click Game",
-        description: "Simple fast click game.",
-        tools: ["JS", "React"],
-        link: "https://rubendougall.co.uk/projects/fast-click-game/",
-        sourceCodeLink: "https://github.com/Ruben9922/fast-click-game",
-      },
-      {
         name: "Unix Permissions Calculator",
         description: "Convert between different notations for Unix permissions.",
-        tools: ["JS", "React"],
+        tools: ["JS", "React", "Semantic UI"],
         link: "https://rubendougall.co.uk/projects/permissions-calculator/",
         sourceCodeLink: "https://github.com/Ruben9922/permissions-calculator",
       },
       {
         name: "Click Game",
         description: "Incremental game in which you build up your score by pressing a button or purchasing in-game items.",
-        tools: ["JS", "React"],
+        tools: ["JS", "React", "Semantic UI"],
         link: "https://rubendougall.co.uk/projects/click-game/",
         sourceCodeLink: "https://github.com/Ruben9922/click-game",
       },
       {
         name: "Wordsearch Generator",
         description: "Generate a wordsearch from a list of words.",
-        tools: ["JS", "React"],
+        tools: ["JS", "React", "Semantic UI"],
         link: "https://rubendougall.co.uk/projects/wordsearch/",
         sourceCodeLink: "https://github.com/Ruben9922/wordsearch",
+      },
+      {
+        name: "Fast Click Game",
+        description: "Simple fast click game I built to help me learn React.",
+        tools: ["JS", "React", "Bootstrap"],
+        link: "https://rubendougall.co.uk/projects/fast-click-game/",
+        sourceCodeLink: "https://github.com/Ruben9922/fast-click-game",
       },
     ],
   };
