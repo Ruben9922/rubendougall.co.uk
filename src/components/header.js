@@ -8,6 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import Tooltip from "@material-ui/core/Tooltip";
 
 export default function Header() {
   const useStyles = makeStyles(theme => ({
@@ -33,9 +34,11 @@ export default function Header() {
         <Button color="inherit" href="/projects">Projects</Button>
         {/*<Button color="inherit" href="/tutorials">Tutorials</Button>*/}
         <Button color="inherit" href="/about">About</Button>
-        <IconButton aria-label="GitHub" href="https://github.com/Ruben9922/rubendougall.co.uk" color="inherit">
-          <GitHubIcon/>
-        </IconButton>
+        <Tooltip title="GitHub repository">
+          <IconButton aria-label="GitHub" href="https://github.com/Ruben9922/rubendougall.co.uk" color="inherit">
+            <GitHubIcon/>
+          </IconButton>
+        </Tooltip>
       </Toolbar>
     </AppBar>
   );
