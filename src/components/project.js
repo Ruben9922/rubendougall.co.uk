@@ -12,6 +12,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import HourglassEmptyIcon from "@material-ui/icons/HourglassEmpty";
 import { withStyles } from "@material-ui/core/styles";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const styles = theme => ({
   toolsChip: {
@@ -74,14 +75,18 @@ class Project extends React.Component {
         {(sourceCodeLink === undefined && downloadLink === undefined) ||
         <CardActions disableSpacing>
           {sourceCodeLink === undefined ||
-          <IconButton aria-label="GitHub" href={sourceCodeLink}>
-            <GitHubIcon/>
-          </IconButton>
+            <Tooltip title="GitHub repository">
+              <IconButton aria-label="GitHub" href={sourceCodeLink}>
+                <GitHubIcon/>
+              </IconButton>
+            </Tooltip>
           }
           {downloadLink === undefined ||
-          <IconButton aria-label="Download" href={downloadLink}>
-            <GetAppIcon/>
-          </IconButton>
+            <Tooltip title="Download">
+              <IconButton aria-label="Download" href={downloadLink}>
+                <GetAppIcon/>
+              </IconButton>
+            </Tooltip>
           }
         </CardActions>
         }
