@@ -5,3 +5,4 @@ https://rubendougall.netlify.app/* https://rubendougall.co.uk/:splat 301!
 /projects/click-game/* https://rubendougall-click-game.netlify.app/:splat 200!
 /projects/wordsearch/* https://rubendougall-wordsearch.netlify.app/:splat 200!
 /projects/flags-quiz/* https://rubendougall-flags-quiz.netlify.app/:splat 200!
+/projects/investment-calculator/* https://rubendougall-investment-calculator.netlify.app/:splat 200!
