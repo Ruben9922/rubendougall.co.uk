@@ -1,9 +1,10 @@
 import React from "react";
-import theme from "../theme";
+import baseTheme from "../theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./header";
-import { ThemeProvider, withStyles } from "@material-ui/core/styles";
+import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles"
 import SEO from "./seo";
+import { useMediaQuery } from "@material-ui/core"
 
 const styles = {
   root: {
@@ -12,11 +13,24 @@ const styles = {
 };
 
 function Layout({ children, classes }) {
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const [nightMode, setNightMode] = React.useState(prefersDarkMode);
+
+  const theme = React.useMemo(
+    () =>
+      createMuiTheme({
+        palette: {
+          type: nightMode ? "dark" : "light",
+        },
+      }, baseTheme),
+    [nightMode],
+  );
+
   return (
     <ThemeProvider theme={theme}>
       <SEO/>
       <CssBaseline/>
-      <Header/>
+      <Header nightMode={nightMode} setNightMode={setNightMode}/>
 
       {children}
 

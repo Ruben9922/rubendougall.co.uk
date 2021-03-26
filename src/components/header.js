@@ -9,8 +9,10 @@ import Link from "@material-ui/core/Link";
 import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Tooltip from "@material-ui/core/Tooltip";
+import Brightness4Icon from "@material-ui/icons/Brightness4";
+import Brightness7Icon from "@material-ui/icons/Brightness7";
 
-export default function Header() {
+export default function Header({ nightMode, setNightMode }) {
   const useStyles = makeStyles(theme => ({
     title: {
       flexGrow: 1,
@@ -37,6 +39,11 @@ export default function Header() {
         <Tooltip title="GitHub repository">
           <IconButton aria-label="GitHub" href="https://github.com/Ruben9922/rubendougall.co.uk" color="inherit">
             <GitHubIcon/>
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Toggle night mode">
+          <IconButton aria-label="GitHub" onClick={() => setNightMode(nm => !nm)} color="inherit">
+            {nightMode ? <Brightness4Icon/> : <Brightness7Icon/>}
           </IconButton>
         </Tooltip>
       </Toolbar>
