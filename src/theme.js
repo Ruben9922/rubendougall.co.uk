@@ -6,7 +6,6 @@ const theme = {
       main: '#0d47a1',
     },
     secondary: red,
-    // type: "dark",
   },
   overrides: {
     MuiTypography: {
