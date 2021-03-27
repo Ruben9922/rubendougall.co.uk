@@ -1,12 +1,6 @@
 import { red } from "@material-ui/core/colors";
 
 const theme = {
-  palette: {
-    primary: {
-      main: '#0d47a1',
-    },
-    secondary: red,
-  },
   overrides: {
     MuiTypography: {
       h4: {
