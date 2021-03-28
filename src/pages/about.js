@@ -11,6 +11,7 @@ import Collapse from "@material-ui/core/Collapse";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import { ExpandLess, ExpandMore, StarBorder } from "@material-ui/icons";
 import SEO from "../components/seo";
+import { Link as GatsbyLink } from "gatsby";
 
 const styles = theme => ({
   root: {
@@ -67,7 +68,7 @@ function AboutPage({ classes }) {
           I have always been a power user of computers. As a daily Linux user, I have made use of various command-line tools to configure a system and perform specific tasks. I enjoy completing various computing projects to improve my daily computing life&mdash;for example, setting up my own Ubuntu cloud storage server using a low-budget PC.
         </Typography>
         <Typography paragraph>
-          Check out my projects on the <Link href="/projects" color="secondary">projects page</Link>!
+          Check out my projects on the <Link to="/projects" color="secondary" component={GatsbyLink}>projects page</Link>!
         </Typography>
         <Typography variant="h5">
           Music

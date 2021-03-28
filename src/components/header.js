@@ -11,6 +11,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import Tooltip from "@material-ui/core/Tooltip";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
+import { Link as GatsbyLink } from "gatsby";
 
 export default function Header({ darkMode, setDarkMode }) {
   const useStyles = makeStyles(theme => ({
@@ -29,13 +30,13 @@ export default function Header({ darkMode, setDarkMode }) {
         {/*  <CodeIcon />*/}
         {/*</IconButton>*/}
         <Typography variant="h6" className={classes.title}>
-          <Link href="/" color="inherit" underline="none">
+          <Link to="/" color="inherit" underline="none" component={GatsbyLink}>
             Ruben Dougall
           </Link>
         </Typography>
-        <Button color="inherit" href="/projects">Projects</Button>
+        <Button color="inherit" to="/projects" component={GatsbyLink}>Projects</Button>
         {/*<Button color="inherit" href="/tutorials">Tutorials</Button>*/}
-        <Button color="inherit" href="/about">About</Button>
+        <Button color="inherit" to="/about" component={GatsbyLink}>About</Button>
         <Tooltip title="GitHub repository">
           <IconButton aria-label="GitHub" href="https://github.com/Ruben9922/rubendougall.co.uk" color="inherit">
             <GitHubIcon/>
