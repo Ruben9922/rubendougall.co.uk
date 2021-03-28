@@ -13,26 +13,7 @@ import { ExpandLess, ExpandMore, StarBorder } from "@material-ui/icons";
 import SEO from "../components/seo";
 import { Link as GatsbyLink } from "gatsby";
 
-const styles = theme => ({
-  root: {
-    width: "100%",
-    maxWidth: 360,
-    backgroundColor: theme.palette.background.paper,
-  },
-  nested: {
-    paddingLeft: theme.spacing(4),
-  },
-});
-
-function AboutPage({ classes }) {
-  const [open, setOpen] = React.useState(Array(4).fill(false));
-
-  const handleClick = index => {
-    const newOpen = [...open];
-    newOpen[index] = !newOpen[index];
-    setOpen(newOpen);
-  };
-
+function AboutPage() {
   return (
     <Layout>
       <SEO title="About"/>
@@ -81,4 +62,4 @@ function AboutPage({ classes }) {
   );
 }
 
-export default withStyles(styles)(AboutPage);
+export default AboutPage;
