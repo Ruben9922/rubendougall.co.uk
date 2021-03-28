@@ -39,6 +39,21 @@ function ProjectsPage({ classes }) {
     name: "Web Apps",
     projects: [
       {
+        name: "Automaton Tool (React)",
+        description: "Educational tool for finite automata. React rewrite of my third-year project from university.",
+        tools: ["TypeScript", "React", "Material UI"],
+        sourceCodeLink: "https://github.com/Ruben9922/automaton-tool-react",
+        inDevelopment: true,
+      },
+      {
+        name: "Flags Quiz",
+        description: "Simple flags quiz game.",
+        tools: ["JS", "React", "Semantic UI"],
+        link: "https://rubendougall.co.uk/projects/flags-quiz",
+        sourceCodeLink: "https://github.com/Ruben9922/flags-quiz",
+        inDevelopment: true,
+      },
+      {
         name: "Unix Permissions Calculator",
         description: "Convert between different notations for Unix permissions.",
         tools: ["JS", "React", "Semantic UI"],
@@ -91,6 +106,17 @@ function ProjectsPage({ classes }) {
       },
     ],
   };
+  let libraries = {
+    name: "Libraries",
+    projects: [
+      {
+        name: "Python Console Utilities",
+        description: "Simple utility functions for command-line applications.",
+        tools: ["Python"],
+        sourceCodeLink: "https://github.com/Ruben9922/python-console-utilities",
+      },
+    ],
+  };
   let otherApps = {
     name: "Other",
     projects: [
@@ -117,7 +143,7 @@ function ProjectsPage({ classes }) {
         <Typography paragraph>
           This page lists the main projects I have been working on. For some projects, more information can be found in the README of the GitHub repository. A more complete list, including many unfinished projects, can be found on <Link href="https://github.com/Ruben9922" color="secondary">GitHub</Link>.
         </Typography>
-        {[desktopApps, webApps, storeApps, otherApps].map((projects, index1) =>
+        {[desktopApps, webApps, storeApps, libraries, otherApps].map((projects, index1) =>
           <div key={index1}>
             <Typography variant="h5">
               {projects.name}
