@@ -32,59 +32,6 @@ function AboutPage({ classes }) {
     setOpen(newOpen);
   };
 
-  const modulesByYear = [
-    {
-      name: "First Year",
-      modules: [
-        "Programming for Computer Scientists",
-        "Design of Information Structures",
-        "Mathematics for Computer Scientists I",
-        "Mathematics for Computer Scientists II",
-        "Computer Organisation and Architecture",
-        "Professional Skills",
-        "Web Development Technologies",
-        "Computer Security",
-      ],
-    },
-    {
-      name: "Second Year",
-      modules: [
-        "Operating Systems and Computer Networks",
-        "Database Systems",
-        "Formal Languages",
-        "Algorithms",
-        "Software Engineering",
-        "Logic and Verification",
-        "Artificial Intelligence",
-        "Functional Programming",
-      ],
-    },
-    {
-      name: "Third Year",
-      modules: [
-        "Project: \"Educational Tool for Automata and Formal Languages\"",
-        "Project Management for Computer Scientists",
-        "Computer Graphics",
-        "Compiler Design",
-        "Advanced Databases",
-        "Principles of Programming Languages",
-        "Digital Forensics",
-      ],
-    },
-    {
-      name: "Fourth Year",
-      modules: [
-        "Group project: \"Analysis and Implementation of Smart Contracts on Blockchain Technology\"",
-        "High-Performance Computing",
-        "Formal Systems Development",
-        "Computational Biology",
-        "Data Mining",
-        "Foundations of Data Analytics",
-        "Advanced Computer Security",
-      ],
-    },
-  ];
-
   return (
     <Layout>
       <SEO title="About"/>
@@ -93,75 +40,40 @@ function AboutPage({ classes }) {
           About
         </Typography>
         <Typography paragraph>
-          I'm a Computer Science graduate from the University of Warwick and .NET Developer at a local automotive consulting company.
+          I'm a Computer Science graduate from the University of Warwick and .NET Developer at an automotive consulting company.
         </Typography>
         <Typography variant="h5">
           University
         </Typography>
         <Typography paragraph>
-          Graduated from University of Warwick in MEng Computer Science.
+          Graduated from the University of Warwick in MEng Computer Science.
         </Typography>
         <Typography paragraph>
-          I worked as a tutor in lab sessions for the Programming for Computer Scientists and Functional Programming modules, assisting first-year students and answering their questions regarding exercises and coursework as well as Java, Haskell, Git and Linux in general.
+          Third-year project: <i>Educational Tool for Automata and Formal Languages</i>. Fourth-year project: <i>Analysis and Implementation of Smart Contracts Using Blockchain Technology</i>.
+        </Typography>
+        <Typography paragraph>
+          I worked as a tutor in lab sessions for Java and Haskell programming modules, assisting first-year students and answering their questions regarding exercises and coursework, as well as Java, Haskell, Git and Linux in general. I was also a Computer Science "Cousin", giving advice to first-year students and answering their questions about the department and university life in general.
         </Typography>
         <Typography paragraph>
           I participated in the J.P. Morgan Code for Good 2017 and UKIEPC 2016 & 2017 programming contests.
-        </Typography>
-        <Typography paragraph>
-          During my time here, I have gained a detailed understanding of various areas of computer science, covering both theoretical and practical aspects.
-        </Typography>
-        <List
-          component="nav"
-          aria-labelledby="nested-list-subheader"
-          subheader={
-            <ListSubheader component="div" id="nested-list-subheader">
-              Completed modules
-            </ListSubheader>
-          }
-          className={classes.root}>
-          {modulesByYear.map((year, index1) => [
-            <ListItem key={index1} button onClick={() => handleClick(index1)}>
-              <ListItemText primary={year.name}/>
-              {open[index1] ? <ExpandLess/> : <ExpandMore/>}
-            </ListItem>,
-            <Collapse key={index1} in={open[index1]} timeout="auto" unmountOnExit>
-              <List component="div" disablePadding>
-                {year.modules.map((module, index2) =>
-                  <ListItem key={index2} className={classes.nested}>
-                    <ListItemText primary={module}/>
-                  </ListItem>,
-                )}
-              </List>
-            </Collapse>,
-          ])}
-        </List>
-        <Typography paragraph>
-          My course involved completing numerous pieces of coursework. Some allowed me to put into practice the theory learnt during lectures; others involved researching further into the topic and forming my own ideas. They often involved writing a technical report which enabled me to perfect expressing complex processes in a clear, succinct way. Significant pieces of coursework included:
-          {/* TODO: Finished adding links - e.g. wiki pages for algorithms*/}
-          <ul>
-            <li>Implementing data mining techniques, e.g., classification, dimensionality reduction, neural networks and parameter tuning (grid search), using NumPy, Scikit-Learn, Matplotlib and Keras in Python;</li>
-            <li>Specifying and implementing abstract machines using <Link href="https://www.atelierb.eu/en/">Atelier B</Link>;</li>
-            <li>Parallelising C++ programs using OpenMP and MPI;</li>
-            <li>Preprocessing a resting-state fMRI data set using <Link href="http://rfmri.org/dpabi">DPABI</Link>;</li>
-            <li>Analysing fMRI data of different brain regions by computing the Granger causality in MATLAB;</li>
-            <li>Implementing sequence analysis algorithms, e.g., Needleman-Wunsch, neighbour joining, suffix tree generation, CLUSTALW and t-SNE;</li>
-            <li>Using MATLAB to implement digital forensics techniques, e.g., watermarking, compression-based forensics, copy-move forgery detection and source identification.</li>
-          </ul>
         </Typography>
         <Typography variant="h5">
           Computing
         </Typography>
         <Typography paragraph>
-          I enjoy programming and work on numerous software projects in my spare time. I have strong software development skills and experience with a number of languages, frameworks and tools. My main languages are C#, Java, Python and JavaScript, but I'm also highly proficient with many others such as C/C++ and MATLAB. I'm also a daily Linux user, so I'm experienced with command-line tools, package managers and Bash scripting.
+          I enjoy programming and work on numerous software projects in my spare time. My main languages are TypeScript/JavaScript (ES6, React), Python, C# and Java, but I am also experienced in C/C++, PHP, MATLAB, SQL and others. Much of my programming knowledge is self-taught.
         </Typography>
         <Typography paragraph>
-          I'm interested in pretty much all kinds of software, including command-line, GUI, web and 3D graphics applications. You may wish to visit the Projects page. I'm also interested in learning more about machine learning in Python and full-stack web applications in Django, having used these in my last year at university.
+          I have always been a power user of computers. As a daily Linux user, I have made use of various command-line tools to configure a system and perform specific tasks. I enjoy completing various computing projects to improve my daily computing life&mdash;for example, setting up my own Ubuntu cloud storage server using a low-budget PC.
+        </Typography>
+        <Typography paragraph>
+          Check out my projects on the <Link href="/projects">projects page</Link>!
         </Typography>
         <Typography variant="h5">
           Music
         </Typography>
         <Typography paragraph>
-          Outside of computing, I love house music, especially house, tech house and deep house, but like other genres too. I produce music recreationally and have taught myself how to DJ.
+          Outside of computing, I love house music, though recently I've been listening to a wide range of genres. I produce music recreationally and have taught myself how to DJ.
         </Typography>
       </Container>
     </Layout>
