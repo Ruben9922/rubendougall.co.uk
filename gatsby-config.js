@@ -5,11 +5,7 @@
  */
 
 module.exports = {
-  plugins: [
-    `gatsby-plugin-material-ui`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-use-dark-mode`,
-  ],
+  plugins: [`gatsby-plugin-material-ui`, `gatsby-plugin-react-helmet`],
   siteMetadata: {
     title: "Ruben Dougall",
     titleTemplate: "%s – Ruben Dougall",
