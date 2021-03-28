@@ -44,7 +44,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
         </Tooltip>
         <Tooltip title="Toggle dark mode">
           <IconButton aria-label="GitHub" onClick={toggleDarkMode} color="inherit">
-            {darkMode ? <Brightness4Icon/> : <Brightness7Icon/>}
+            {darkMode ? <Brightness7Icon/> : <Brightness4Icon/>}
           </IconButton>
         </Tooltip>
       </Toolbar>
