@@ -5,7 +5,7 @@ import Header from "./header";
 import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles"
 import SEO from "./seo";
 import { useMediaQuery } from "@material-ui/core"
-import { blue, red } from "@material-ui/core/colors"
+import { blue, pink } from "@material-ui/core/colors"
 
 const styles = {
   root: {
@@ -25,7 +25,9 @@ function Layout({ children, classes }) {
           primary: {
             main: nightMode ? blue[800] : blue[900],
           },
-          secondary: red,
+          secondary: {
+            main: nightMode ? pink[200] : "#dc004e",
+          },
         },
       }, baseTheme),
     [nightMode],
