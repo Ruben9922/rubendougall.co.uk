@@ -4,8 +4,8 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./header";
 import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles"
 import SEO from "./seo";
-import { useMediaQuery } from "@material-ui/core"
 import { blue, pink } from "@material-ui/core/colors"
+import useDarkMode from "use-dark-mode";
 
 const styles = {
   root: {
@@ -14,30 +14,30 @@ const styles = {
 };
 
 function Layout({ children, classes }) {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-  const [darkMode, setDarkMode] = React.useState(prefersDarkMode);
+  // Setting onChange to empty function to prevent default behaviour of automatically setting the <body> element's class
+  const darkMode = useDarkMode(false, { onChange: () => {} });
 
   const theme = React.useMemo(
     () =>
       createMuiTheme({
         palette: {
-          type: darkMode ? "dark" : "light",
+          type: darkMode.value ? "dark" : "light",
           primary: {
-            main: darkMode ? blue[800] : blue[900],
+            main: darkMode.value ? blue[800] : blue[900],
           },
           secondary: {
-            main: darkMode ? pink[200] : "#dc004e",
+            main: darkMode.value ? pink[200] : "#dc004e",
           },
         },
       }, baseTheme),
-    [darkMode],
+    [darkMode.value],
   );
 
   return (
     <ThemeProvider theme={theme}>
       <SEO/>
       <CssBaseline/>
-      <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Header darkMode={darkMode.value} setDarkMode={darkMode.toggle}/>
 
       {children}
 
