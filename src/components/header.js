@@ -12,7 +12,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 
-export default function Header({ nightMode, setNightMode }) {
+export default function Header({ darkMode, setDarkMode }) {
   const useStyles = makeStyles(theme => ({
     title: {
       flexGrow: 1,
@@ -41,9 +41,9 @@ export default function Header({ nightMode, setNightMode }) {
             <GitHubIcon/>
           </IconButton>
         </Tooltip>
-        <Tooltip title="Toggle night mode">
-          <IconButton aria-label="GitHub" onClick={() => setNightMode(nm => !nm)} color="inherit">
-            {nightMode ? <Brightness4Icon/> : <Brightness7Icon/>}
+        <Tooltip title="Toggle dark mode">
+          <IconButton aria-label="GitHub" onClick={() => setDarkMode(nm => !nm)} color="inherit">
+            {darkMode ? <Brightness4Icon/> : <Brightness7Icon/>}
           </IconButton>
         </Tooltip>
       </Toolbar>

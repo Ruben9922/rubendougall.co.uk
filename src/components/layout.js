@@ -15,29 +15,29 @@ const styles = {
 
 function Layout({ children, classes }) {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-  const [nightMode, setNightMode] = React.useState(prefersDarkMode);
+  const [darkMode, setDarkMode] = React.useState(prefersDarkMode);
 
   const theme = React.useMemo(
     () =>
       createMuiTheme({
         palette: {
-          type: nightMode ? "dark" : "light",
+          type: darkMode ? "dark" : "light",
           primary: {
-            main: nightMode ? blue[800] : blue[900],
+            main: darkMode ? blue[800] : blue[900],
           },
           secondary: {
-            main: nightMode ? pink[200] : "#dc004e",
+            main: darkMode ? pink[200] : "#dc004e",
           },
         },
       }, baseTheme),
-    [nightMode],
+    [darkMode],
   );
 
   return (
     <ThemeProvider theme={theme}>
       <SEO/>
       <CssBaseline/>
-      <Header nightMode={nightMode} setNightMode={setNightMode}/>
+      <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
 
       {children}
 
