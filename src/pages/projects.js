@@ -115,7 +115,7 @@ function ProjectsPage({ classes }) {
           Projects
         </Typography>
         <Typography paragraph>
-          This page lists some of the main projects I have been working on. For some projects, more information can be found in the README of the GitHub repository. A more complete list, including many unfinished projects, can be found on <Link href="https://github.com/Ruben9922" color="secondary">GitHub</Link>.
+          This page lists the main projects I have been working on. For some projects, more information can be found in the README of the GitHub repository. A more complete list, including many unfinished projects, can be found on <Link href="https://github.com/Ruben9922" color="secondary">GitHub</Link>.
         </Typography>
         {[desktopApps, webApps, storeApps, otherApps].map((projects, index1) =>
           <div key={index1}>
