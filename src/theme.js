@@ -25,6 +25,7 @@ const theme = {
     MuiContainer: {
       style: {
         paddingTop: "96px",
+        paddingBottom: "48px",
         paddingLeft: "24px",
         paddingRight: "24px",
       }
