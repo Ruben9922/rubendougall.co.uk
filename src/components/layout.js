@@ -37,7 +37,7 @@ function Layout({ children, classes }) {
     <ThemeProvider theme={theme}>
       <SEO/>
       <CssBaseline/>
-      <Header darkMode={darkMode.value} setDarkMode={darkMode.toggle}/>
+      <Header darkMode={darkMode.value} toggleDarkMode={darkMode.toggle}/>
 
       {children}
 

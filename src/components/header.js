@@ -13,7 +13,7 @@ import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { Link as GatsbyLink } from "gatsby";
 
-export default function Header({ darkMode, setDarkMode }) {
+export default function Header({ darkMode, toggleDarkMode }) {
   const useStyles = makeStyles(theme => ({
     title: {
       flexGrow: 1,
@@ -43,7 +43,7 @@ export default function Header({ darkMode, setDarkMode }) {
           </IconButton>
         </Tooltip>
         <Tooltip title="Toggle dark mode">
-          <IconButton aria-label="GitHub" onClick={() => setDarkMode(nm => !nm)} color="inherit">
+          <IconButton aria-label="GitHub" onClick={toggleDarkMode} color="inherit">
             {darkMode ? <Brightness4Icon/> : <Brightness7Icon/>}
           </IconButton>
         </Tooltip>
