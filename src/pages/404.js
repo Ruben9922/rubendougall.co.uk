@@ -2,11 +2,8 @@ import React from "react";
 import SEO from "../components/seo";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import Link from "@material-ui/core/Link";
 import { Link as GatsbyLink } from "gatsby";
 import Layout from "../components/layout";
-import ErrorIcon from '@material-ui/icons/Error';
-import SentimentVeryDissatisfiedIcon from '@material-ui/icons/SentimentVeryDissatisfied';
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
 
@@ -24,8 +21,10 @@ const styles = theme => ({
     // alignSelf: "center",
   },
   subtitle: {
-    marginTop: "-0.3em",
-    // marginBottom: "2em",
+    marginTop: 0,
+  },
+  bodyText: {
+    marginBottom: "2em",
   },
 });
 
@@ -38,9 +37,9 @@ function NotFoundPage({ classes }) {
           404
         </Typography>
         <Typography variant="h6" component="h2" className={classes.subtitle}>
-          Page Not Found <SentimentVeryDissatisfiedIcon className={classes.icon}/>
+          Page Not Found
         </Typography>
-        <Typography variant="body1" paragraph style={{marginBottom: "2em"}}>
+        <Typography variant="body1" paragraph className={classes.bodyText}>
           The page you are looking for could not be found.
         </Typography>
         <Button to="/" color="secondary" component={GatsbyLink}>
