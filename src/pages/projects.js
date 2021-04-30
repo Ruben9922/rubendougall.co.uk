@@ -63,7 +63,7 @@ function ProjectsPage({ classes }) {
       {
         name: "Click Game",
         description: "Incremental game in which you build up your score by clicking repeatedly or purchasing in-game items.",
-        tools: ["JS", "React", "Semantic UI"],
+        tools: ["TypeScript", "React", "Semantic UI"],
         link: "https://rubendougall.co.uk/projects/click-game/",
         sourceCodeLink: "https://github.com/Ruben9922/click-game",
       },
