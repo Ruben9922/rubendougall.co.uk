@@ -46,19 +46,19 @@ function ProjectsPage({ classes }) {
         inDevelopment: true,
       },
       {
+        name: "Wordsearch Generator",
+        description: "Generate a wordsearch from a list of words. Developed the wordsearch generation algorithm from first principles.",
+        tools: ["TypeScript", "React", "Material UI"],
+        link: "https://rubendougall.co.uk/projects/wordsearch/",
+        sourceCodeLink: "https://github.com/Ruben9922/wordsearch",
+      },
+      {
         name: "Flags Quiz",
         description: "Simple flags quiz game.",
         tools: ["JS", "React", "Material UI"],
         link: "https://rubendougall.co.uk/projects/flags-quiz",
         sourceCodeLink: "https://github.com/Ruben9922/flags-quiz",
         inDevelopment: true,
-      },
-      {
-        name: "Unix Permissions Calculator",
-        description: "Convert between different notations for Unix permissions.",
-        tools: ["JS", "React", "Semantic UI"],
-        link: "https://rubendougall.co.uk/projects/permissions-calculator/",
-        sourceCodeLink: "https://github.com/Ruben9922/permissions-calculator",
       },
       {
         name: "Click Game",
@@ -68,11 +68,11 @@ function ProjectsPage({ classes }) {
         sourceCodeLink: "https://github.com/Ruben9922/click-game",
       },
       {
-        name: "Wordsearch Generator",
-        description: "Generate a wordsearch from a list of words. Developed the wordsearch generation algorithm from first principles.",
-        tools: ["TypeScript", "React", "Material UI"],
-        link: "https://rubendougall.co.uk/projects/wordsearch/",
-        sourceCodeLink: "https://github.com/Ruben9922/wordsearch",
+        name: "Unix Permissions Calculator",
+        description: "Convert between different notations for Unix permissions.",
+        tools: ["JS", "React", "Semantic UI"],
+        link: "https://rubendougall.co.uk/projects/permissions-calculator/",
+        sourceCodeLink: "https://github.com/Ruben9922/permissions-calculator",
       },
       {
         name: "Fast Click Game",
