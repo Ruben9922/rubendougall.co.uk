@@ -48,7 +48,7 @@ function ProjectsPage({ classes }) {
       {
         name: "Flags Quiz",
         description: "Simple flags quiz game.",
-        tools: ["JS", "React", "Semantic UI"],
+        tools: ["JS", "React", "Material UI"],
         link: "https://rubendougall.co.uk/projects/flags-quiz",
         sourceCodeLink: "https://github.com/Ruben9922/flags-quiz",
         inDevelopment: true,
@@ -62,15 +62,15 @@ function ProjectsPage({ classes }) {
       },
       {
         name: "Click Game",
-        description: "Incremental game in which you build up your score by pressing a button or purchasing in-game items.",
+        description: "Incremental game in which you build up your score by clicking repeatedly or purchasing in-game items.",
         tools: ["JS", "React", "Semantic UI"],
         link: "https://rubendougall.co.uk/projects/click-game/",
         sourceCodeLink: "https://github.com/Ruben9922/click-game",
       },
       {
         name: "Wordsearch Generator",
-        description: "Generate a wordsearch from a list of words.",
-        tools: ["JS", "React", "Semantic UI"],
+        description: "Generate a wordsearch from a list of words. Developed the wordsearch generation algorithm from first principles.",
+        tools: ["TypeScript", "React", "Material UI"],
         link: "https://rubendougall.co.uk/projects/wordsearch/",
         sourceCodeLink: "https://github.com/Ruben9922/wordsearch",
       },
@@ -118,7 +118,7 @@ function ProjectsPage({ classes }) {
     ],
   };
   let otherApps = {
-    name: "Other",
+    name: "Past Projects",
     projects: [
       {
         name: "Bill Splitter",
@@ -127,7 +127,7 @@ function ProjectsPage({ classes }) {
       },
       {
         name: "Quadratic Equation Solver",
-        description: "Find the solution of quadratic equations. I'll make a modern version of this at some point.",
+        description: "Find the solution of quadratic equations.",
         tools: ["PHP"],
       },
     ],
