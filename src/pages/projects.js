@@ -150,7 +150,7 @@ function ProjectsPage({ classes }) {
             </Typography>
             <Grid container spacing={3}>
               {projects.projects.map((project, index2) =>
-                <Grid item sm={6} md={4} key={index2} style={{display: "flex"}}>
+                <Grid item sm={6} md={4} key={index2} style={{display: "flex", width: "100%"}}>
                   <Project
                     name={project.name}
                     description={project.description}
