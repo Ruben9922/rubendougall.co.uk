@@ -126,6 +126,11 @@ function ProjectsPage({ classes }) {
         tools: ["PHP", "SQLite"],
       },
       {
+        name: "Hair Salon Booking System",
+        description: "Booking system for a local hair salon, built for my A-level Computing project.",
+        tools: ["C#", "WPF", "MySQL"],
+      },
+      {
         name: "Quadratic Equation Solver",
         description: "Find the solution of quadratic equations.",
         tools: ["PHP"],
