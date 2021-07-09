@@ -6,6 +6,10 @@ import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/sty
 import SEO from "./seo";
 import { blue, pink } from "@material-ui/core/colors"
 import useDarkMode from "use-dark-mode";
+import ScrollToTop from "./scrollToTop";
+import Fab from "@material-ui/core/Fab";
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import Toolbar from "@material-ui/core/Toolbar"
 
 const styles = {
   root: {
@@ -38,6 +42,12 @@ function Layout({ children, classes }) {
       <SEO/>
       <CssBaseline/>
       <Header darkMode={darkMode.value} toggleDarkMode={darkMode.toggle}/>
+      <Toolbar id="back-to-top-anchor" />
+      <ScrollToTop>
+        <Fab color="secondary" size="small" aria-label="scroll back to top">
+          <KeyboardArrowUpIcon />
+        </Fab>
+      </ScrollToTop>
 
       {children}
 
