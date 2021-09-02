@@ -1,12 +1,9 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Layout from "../components/layout";
 
-const styles = theme => ({});
-
-function TutorialsPage({ classes }) {
+function TutorialsPage() {
   return (
     <Layout>
       <Container maxWidth="lg">
@@ -20,4 +17,4 @@ function TutorialsPage({ classes }) {
   );
 }
 
-export default withStyles(styles)(TutorialsPage);
+export default TutorialsPage;

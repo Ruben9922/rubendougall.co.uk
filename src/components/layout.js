@@ -2,7 +2,7 @@ import React from "react";
 import baseTheme from "../theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./header";
-import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles";
+import { createMuiTheme, makeStyles, ThemeProvider } from "@material-ui/core/styles";
 import SEO from "./seo";
 import { blue, pink } from "@material-ui/core/colors";
 import useDarkMode from "use-dark-mode";
@@ -11,13 +11,15 @@ import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Toolbar from "@material-ui/core/Toolbar";
 
-const styles = {
+const useStyles = makeStyles({
   root: {
     flexGrow: 1,
   },
-};
+});
 
-function Layout({ children, classes }) {
+function Layout({ children }) {
+  const classes = useStyles();
+
   // Setting onChange to empty function to prevent default behaviour of automatically setting the <body> element's class
   const darkMode = useDarkMode(false, { onChange: () => {} });
 
@@ -57,4 +59,4 @@ function Layout({ children, classes }) {
   );
 }
 
-export default withStyles(styles)(Layout);
+export default Layout;

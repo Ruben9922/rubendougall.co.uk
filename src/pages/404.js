@@ -4,10 +4,10 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import { Link as GatsbyLink } from "gatsby";
 import Layout from "../components/layout";
-import { withStyles } from "@material-ui/core/styles"
+import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button"
 
-const styles = theme => ({
+const useStyles = makeStyles({
   container: {
     textAlign: "center",
   },
@@ -28,7 +28,9 @@ const styles = theme => ({
   },
 });
 
-function NotFoundPage({ classes }) {
+function NotFoundPage() {
+  const classes = useStyles();
+
   return (
     <Layout>
       <SEO title="Not Found"/>
@@ -50,4 +52,4 @@ function NotFoundPage({ classes }) {
   );
 }
 
-export default withStyles(styles)(NotFoundPage);
+export default NotFoundPage;

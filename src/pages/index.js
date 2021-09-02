@@ -1,5 +1,5 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Layout from "../components/layout";
@@ -13,7 +13,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import QuestionAnswerIcon from "@material-ui/icons/QuestionAnswer";
 import Button from "@material-ui/core/Button";
 
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   bigAvatar: {
     width: 200,
     height: 200,
@@ -27,9 +27,11 @@ const styles = theme => ({
   button: {
     margin: theme.spacing(1),
   },
-});
+}));
 
-const IndexPage = ({ classes }) => {
+function IndexPage() {
+  const classes = useStyles();
+
   return (
     <Layout>
       <Container maxWidth="lg" className={classes.centerAlign}>
@@ -94,6 +96,6 @@ const IndexPage = ({ classes }) => {
       </Container>
     </Layout>
   );
-};
+}
 
-export default withStyles(styles)(IndexPage);
+export default IndexPage;

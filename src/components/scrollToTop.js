@@ -12,15 +12,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function ScrollToTop(props) {
-  const { children } = props;
+function ScrollToTop({ children }) {
   const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 100,
   });
 
-  const handleClick = (event) => {
+  const handleClick = event => {
     const anchor = (event.target.ownerDocument || document).querySelector('#back-to-top-anchor');
 
     if (anchor) {

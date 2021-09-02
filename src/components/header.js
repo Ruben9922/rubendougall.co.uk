@@ -12,14 +12,15 @@ import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import { Link as GatsbyLink } from "gatsby";
 
-export default function Header({ darkMode, toggleDarkMode }) {
-  const useStyles = makeStyles(theme => ({
-    title: {
-      flexGrow: 1,
-      marginTop: "initial",
-      marginBottom: "initial",
-    },
-  }));
+const useStyles = makeStyles({
+  title: {
+    flexGrow: 1,
+    marginTop: "initial",
+    marginBottom: "initial",
+  },
+});
+
+function Header({ darkMode, toggleDarkMode }) {
   const classes = useStyles();
 
   return (
@@ -49,4 +50,6 @@ export default function Header({ darkMode, toggleDarkMode }) {
       </Toolbar>
     </AppBar>
   );
-};
+}
+
+export default Header;

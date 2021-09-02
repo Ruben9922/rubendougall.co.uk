@@ -1,5 +1,4 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
@@ -8,10 +7,7 @@ import Project from "../components/project";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-const styles = theme => ({
-});
-
-function ProjectsPage({ classes }) {
+function ProjectsPage() {
   let desktopApps = {
     name: "Desktop Apps",
     projects: [
@@ -175,4 +171,4 @@ function ProjectsPage({ classes }) {
   );
 }
 
-export default withStyles(styles)(ProjectsPage);
+export default ProjectsPage;
