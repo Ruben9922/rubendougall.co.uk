@@ -2,14 +2,14 @@ import React from "react";
 import baseTheme from "../theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./header";
-import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles"
+import { createMuiTheme, ThemeProvider, withStyles } from "@material-ui/core/styles";
 import SEO from "./seo";
-import { blue, pink } from "@material-ui/core/colors"
+import { blue, pink } from "@material-ui/core/colors";
 import useDarkMode from "use-dark-mode";
 import ScrollToTop from "./scrollToTop";
 import Fab from "@material-ui/core/Fab";
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import Toolbar from "@material-ui/core/Toolbar"
+import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
+import Toolbar from "@material-ui/core/Toolbar";
 
 const styles = {
   root: {

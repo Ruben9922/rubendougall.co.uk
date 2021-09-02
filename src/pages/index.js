@@ -2,7 +2,6 @@ import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import Link from "@material-ui/core/Link";
 import Layout from "../components/layout";
 import Avatar from "@material-ui/core/Avatar";
 import profileImage from "../images/ruben.jpg";
