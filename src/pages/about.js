@@ -22,7 +22,7 @@ function AboutPage() {
           About
         </Typography>
         <Typography paragraph>
-          I'm a Computer Science graduate from the University of Warwick and .NET Developer at an automotive consulting company.
+          I'm a Computer Science graduate and work as a Software Engineer.
         </Typography>
         <Typography variant="h5">
           University

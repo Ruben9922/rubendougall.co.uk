@@ -39,7 +39,7 @@ const IndexPage = ({ classes }) => {
           Ruben Dougall
         </Typography>
         <Typography variant="subtitle1">
-          .NET Developer
+          Software Engineer
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
           Computer Science graduate from University of Warwick
