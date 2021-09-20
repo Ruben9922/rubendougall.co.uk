@@ -6,4 +6,5 @@ https://rubendougall.netlify.app/* https://rubendougall.co.uk/:splat 301!
 /projects/wordsearch/* https://rubendougall-wordsearch.netlify.app/:splat 200!
 /projects/flags-quiz/* https://rubendougall-flags-quiz.netlify.app/:splat 200!
 /projects/investment-calculator/* https://rubendougall-investment-calculator.netlify.app/:splat 200!
+/projects/binary-converter/* https://rubendougall-binary-converter.netlify.app/:splat 200!
 /docs/python-console-utilities/* https://python-console-utilities.readthedocs.io/:splat 200!
