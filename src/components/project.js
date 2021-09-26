@@ -14,10 +14,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles(theme => ({
-  toolsChip: {
-    backgroundColor: theme.palette.primary.main,
-    color: "#ffffff",
-  },
   chip: {
     margin: theme.spacing(0.5),
   },
@@ -49,8 +45,8 @@ function Project({
       <Chip
         label={tools.join(", ")}
         icon={<CodeIcon /*style={{ color: '#ffffff' }}*//>}
-        color="secondary"
-        className={`${classes.toolsChip} ${classes.chip}`}
+        color="primary"
+        className={classes.chip}
         size="small"
       />
       {inDevelopment && <Chip
