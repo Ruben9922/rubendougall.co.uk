@@ -65,6 +65,14 @@ function ProjectsPage() {
           sourceCodeLink: "https://github.com/Ruben9922/click-game",
         },
         {
+          name: "Binary Converter",
+          description: "Convert between different numeral systems (e.g. binary, decimal, hex, octal).",
+          tools: ["TypeScript", "React", "Chakra UI"],
+          link: "https://rubendougall.co.uk/projects/binary-converter",
+          sourceCodeLink: "https://github.com/Ruben9922/binary-converter",
+          inDevelopment: true,
+        },
+        {
           name: "Unix Permissions Calculator",
           description: "Convert between different notations for Unix permissions.",
           tools: ["JS", "React", "Semantic UI"],
