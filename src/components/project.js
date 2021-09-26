@@ -44,14 +44,14 @@ function Project({
       </Typography>
       <Chip
         label={tools.join(", ")}
-        icon={<CodeIcon /*style={{ color: '#ffffff' }}*//>}
+        icon={<CodeIcon />}
         color="primary"
         className={classes.chip}
         size="small"
       />
       {inDevelopment && <Chip
         label="In development"
-        icon={<HourglassEmptyIcon /*style={{ color: '#ffffff' }}*//>}
+        icon={<HourglassEmptyIcon />}
         className={classes.chip}
         size="small"
       />}
