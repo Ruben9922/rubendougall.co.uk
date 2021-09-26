@@ -70,7 +70,6 @@ function ProjectsPage() {
           tools: ["TypeScript", "React", "Chakra UI"],
           link: "https://rubendougall.co.uk/projects/binary-converter",
           sourceCodeLink: "https://github.com/Ruben9922/binary-converter",
-          inDevelopment: true,
         },
         {
           name: "Unix Permissions Calculator",
