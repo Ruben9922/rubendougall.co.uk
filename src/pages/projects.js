@@ -52,7 +52,7 @@ function ProjectsPage() {
         {
           name: "Flags Quiz",
           description: "Simple flags quiz game.",
-          tools: ["JS", "React", "Material UI"],
+          tools: ["TypeScript", "React", "Chakra UI"],
           link: "https://rubendougall.co.uk/projects/flags-quiz",
           sourceCodeLink: "https://github.com/Ruben9922/flags-quiz",
           inDevelopment: true,
