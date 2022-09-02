@@ -43,7 +43,7 @@ function IndexPage() {
           Software Engineer
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Computer Science graduate from University of Warwick
+          MEng Computer Science graduate (Warwick)
         </Typography>
         <Button
           variant="contained"
