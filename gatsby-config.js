@@ -4,8 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-import profileImage from "./src/images/ruben.jpg";
-
 module.exports = {
   plugins: [
     `gatsby-plugin-material-ui`,
@@ -24,7 +22,7 @@ module.exports = {
     titleTemplate: "%s – Ruben Dougall",
     description: "Software Engineer. MEng Computer Science graduate (Warwick).",
     url: "https://rubendougall.co.uk", // No trailing slash allowed!
-    image: profileImage, // Path to your image you placed in the 'static' folder
+    image: "/static/ruben-*.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@ruben_dougall",
   },
 };
