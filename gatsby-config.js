@@ -9,11 +9,18 @@ module.exports = {
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-23280894-7",
-        anonymize: true,
-        respectDNT: true,
+        trackingIds: [
+          "G-50RSC8L8TB", // Google Analytics / GA
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
       },
     },
   ],
