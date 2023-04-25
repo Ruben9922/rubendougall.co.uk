@@ -1,14 +1,25 @@
-import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Link from "@material-ui/core/Link";
-import Grid from "@material-ui/core/Grid";
-import Project from "../components/project";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from "react"
+import Typography from "@material-ui/core/Typography"
+import Container from "@material-ui/core/Container"
+import Link from "@material-ui/core/Link"
+import Grid from "@material-ui/core/Grid"
+import Project from "../components/project"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 function ProjectsPage() {
   const projectTypes = [
+    {
+      name: "Command-Line Apps",
+      projects: [
+        {
+          name: "Snake Game",
+          description: "Command-line version of the classic Snake game.",
+          tools: ["Python"],
+          sourceCodeLink: "https://github.com/Ruben9922/snake-cmd",
+        },
+      ],
+    },
     {
       name: "Desktop Apps",
       projects: [
@@ -23,12 +34,6 @@ function ProjectsPage() {
           tools: ["Java", "JavaFX"],
           sourceCodeLink: "https://github.com/Ruben9922/rpn-calculator",
           downloadLink: "https://github.com/Ruben9922/rpn-calculator/releases",
-        },
-        {
-          name: "Snake Command-Line Game",
-          description: "Command-line version of the classic Snake game.",
-          tools: ["Python"],
-          sourceCodeLink: "https://github.com/Ruben9922/snake-cmd",
         },
       ],
     },
