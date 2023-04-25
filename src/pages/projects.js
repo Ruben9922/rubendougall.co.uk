@@ -13,10 +13,17 @@ function ProjectsPage() {
       name: "Command-Line Apps",
       projects: [
         {
-          name: "Snake Game",
+          name: "Snake",
           description: "Command-line version of the classic Snake game.",
           tools: ["Python"],
           sourceCodeLink: "https://github.com/Ruben9922/snake-cmd",
+        },
+        {
+          name: "Reversi",
+          description: "Command-line version of the classic Reversi / Othello game.",
+          tools: ["Go"],
+          sourceCodeLink: "https://github.com/Ruben9922/reversi",
+          downloadLink: "https://github.com/Ruben9922/reversi/releases",
         },
       ],
     },
