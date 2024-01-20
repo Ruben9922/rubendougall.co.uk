@@ -106,13 +106,11 @@ function ProjectsPage() {
           name: "Binary Converter",
           description: "Convert between different numeral systems (decimal, binary, octal, hex or any other between base 2 and base 36).",
           tools: ["Java"],
-          link: "https://play.google.com/store/apps/details?id=com.ruben9922.binaryconverter",
         },
         {
           name: "Super Click (Android)",
           description: "Simple fast click game.",
           tools: ["Java"],
-          link: "https://play.google.com/store/apps/details?id=com.ruben9922.superclick",
         },
         {
           name: "Super Click (Windows)",
