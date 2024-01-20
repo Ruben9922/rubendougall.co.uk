@@ -42,13 +42,15 @@ function Project({
       <Typography paragraph variant="body2" color="textSecondary" component="p">
         {description}
       </Typography>
-      <Chip
-        label={tools.join(", ")}
-        icon={<CodeIcon />}
-        color="primary"
-        className={classes.chip}
-        size="small"
-      />
+      {tools.map(tool => (
+        <Chip
+          label={tool}
+          icon={<CodeIcon />}
+          color="primary"
+          className={classes.chip}
+          size="small"
+        />
+      ))}
       {inDevelopment && <Chip
         label="In development"
         icon={<HourglassEmptyIcon />}
