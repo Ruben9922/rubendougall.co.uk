@@ -103,6 +103,12 @@ function ProjectsPage() {
       name: "Store Apps",
       projects: [
         {
+          name: "Linux Permissions Calculator",
+          description: "Generate numeric and symbolic notation for Linux/Unix file permissions.",
+          tools: ["TypeScript", "React Native", "React Native Paper"],
+          sourceCodeLink: "https://github.com/Ruben9922/permissions-calculator",
+        },
+        {
           name: "Binary Converter",
           description: "Convert between different numeral systems (decimal, binary, octal, hex or any other between base 2 and base 36).",
           tools: ["Java"],
