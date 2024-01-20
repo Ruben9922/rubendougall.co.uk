@@ -106,6 +106,7 @@ function ProjectsPage() {
           name: "Linux Permissions Calculator",
           description: "Generate numeric and symbolic notation for Linux/Unix file permissions.",
           tools: ["TypeScript", "React Native", "React Native Paper"],
+          link: "https://play.google.com/store/apps/details?id=uk.co.rubendougall.permissionscalculator",
           sourceCodeLink: "https://github.com/Ruben9922/permissions-calculator",
         },
         {
