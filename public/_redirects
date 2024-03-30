@@ -11,3 +11,4 @@ https://rubendougall.netlify.app/* https://rubendougall.co.uk/:splat 301!
 /docs/python-console-utilities/* https://python-console-utilities.readthedocs.io/:splat 200!
 /projects/friends-quiz/* https://rubendougall-friends-quiz.netlify.app/:splat 200!
 /projects/rock-paper-scissors/* https://rubendougall-rock-paper-scissors.netlify.app/:splat 200!
+/projects/beat-maker/* https://rubendougall-beat-maker.netlify.app/:splat 200!
