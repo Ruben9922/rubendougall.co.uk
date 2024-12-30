@@ -13,3 +13,4 @@ https://rubendougall.netlify.app/* https://rubendougall.co.uk/:splat 301!
 /projects/rock-paper-scissors/* https://rubendougall-rock-paper-scissors.netlify.app/:splat 200!
 /projects/beat-maker/* https://rubendougall-beat-maker.netlify.app/:splat 200!
 /projects/fuel-cost-calculator/* https://rubendougall-fuel-cost-calculator.netlify.app/:splat 200!
+/projects/word-guessing-game/* https://rubendougall-word-guessing-game.netlify.app/:splat 200!
